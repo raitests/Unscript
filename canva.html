@@ -1,0 +1,3664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="/">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unscript</title>
+  <meta name="description" content="lorem ipsum" />
+  <link rel="icon" href="26387fa4f5b1e3f7b6217b27d79bf264.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="2d0b56e7e51cf11036ad8734bdb67e2d.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="725b756a69a7d4c235070e51acd85560.png" sizes="180x180">
+  <style>
+    html {
+      font-size: 1vw;
+      -webkit-text-size-adjust: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body,
+    html,
+    p,
+    ul,
+    ol,
+    li {
+      margin: 0;
+      padding: 0;
+      font-synthesis: none;
+      font-kerning: none;
+      font-variant-ligatures: none;
+      font-feature-settings: "kern" 0, "calt" 0, "liga" 0, "clig" 0, "dlig" 0, "hlig" 0;
+      font-family: unset;
+      -webkit-font-smoothing: subpixel-antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: geometricprecision;
+      white-space: normal;
+    }
+
+    li {
+      text-align: unset;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 100;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 200;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 200;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 800;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 900;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEqe1G4kwU-0;
+      font-display: swap;
+      src: url(fonts/173c3fd15c0f18a5b3cc6e7041c1a39d.woff2);
+      font-weight: 900;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 100;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 200;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 200;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/0d6b73825ffb53723442c5660e87b4d4.woff2);
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 800;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 900;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEnl21zi4U-0;
+      font-display: swap;
+      src: url(fonts/d769594df7501703a01b15c58fc23317.woff2);
+      font-weight: 900;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/d585e0c0acfc4df0f74473bb69f53fc2.woff2);
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/5532b815e980256198b37c10be07313a.woff2);
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/89e01a6ba17eff39a71e04d111d70737.woff2);
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/7577c90750d4be372669eb2db3376ee5.woff2);
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/d585e0c0acfc4df0f74473bb69f53fc2.woff2);
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/89e01a6ba17eff39a71e04d111d70737.woff2);
+      font-weight: 100;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/d585e0c0acfc4df0f74473bb69f53fc2.woff2);
+      font-weight: 200;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/89e01a6ba17eff39a71e04d111d70737.woff2);
+      font-weight: 200;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/d585e0c0acfc4df0f74473bb69f53fc2.woff2);
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/89e01a6ba17eff39a71e04d111d70737.woff2);
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/d585e0c0acfc4df0f74473bb69f53fc2.woff2);
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/89e01a6ba17eff39a71e04d111d70737.woff2);
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/5532b815e980256198b37c10be07313a.woff2);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/7577c90750d4be372669eb2db3376ee5.woff2);
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/5532b815e980256198b37c10be07313a.woff2);
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/7577c90750d4be372669eb2db3376ee5.woff2);
+      font-weight: 800;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/5532b815e980256198b37c10be07313a.woff2);
+      font-weight: 900;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YAEp0tfoKnU-0;
+      font-display: swap;
+      src: url(fonts/7577c90750d4be372669eb2db3376ee5.woff2);
+      font-weight: 900;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+      font-weight: 100;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+      font-weight: 100;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+      font-weight: 200;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+      font-weight: 200;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+      font-weight: 300;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+      font-weight: 300;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/f8f199f09526f79e87644ed227e0f651.woff2);
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/d257a7100844bc3f98c9021168b6249e.woff2);
+      font-weight: 500;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+      font-weight: 800;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+      font-weight: 800;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/98c4d2c0223fc8474641c77f923528e9.woff2);
+      font-weight: 900;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: YACgEZ1cb1Q-0;
+      font-display: swap;
+      src: url(fonts/1060345c54d396e76d73f1da7ee200bd.woff2);
+      font-weight: 900;
+      font-style: italic;
+    }
+
+    @media screen and (max-width: 375px) {
+      #XwxtcW4CZ3xHNT8b {
+        font-size: max(0px, calc((91.46666667rem * 27.720099 / 343) - 0.5px));
+      }
+
+      #mzA2Cjkna7XqY6vs {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(91.46666667rem * 27.720099 / 343)) * 0.05);
+        margin-bottom: calc(max(0px, calc(91.46666667rem * 27.720099 / 343)) * 0.05);
+      }
+
+      #mSlUos0H1DELSfLX {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 8;
+      }
+
+      #N92xmWIY3dOs316m {
+        font-size: max(12px, calc((91.46666667rem * 44.12844347 / 343) - 0.5px));
+      }
+
+      #jQih7tJkGKHxi2Oc {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 44.12844347 / 343)) * -0.02));
+        margin-top: calc(max(12px, calc(91.46666667rem * 44.12844347 / 343)) * -0.1);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 44.12844347 / 343)) * 0.1);
+      }
+
+      #fS1NlHtZ36uEIig2 {
+        z-index: 4;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #xZ3z9Gaj6JLgZb90 {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 4 / 9 / 7;
+      }
+
+      #cbc8TDCq5MXdRf6X {
+        font-size: max(12px, calc((91.46666667rem * 16.4959868 / 343) - 0.5px));
+      }
+
+      #kn8OxBryPkdRBqmT {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 16.4959868 / 343)) * 0.025));
+        margin-top: calc(max(12px, calc(91.46666667rem * 16.4959868 / 343)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 16.4959868 / 343)) * 0.05);
+      }
+
+      #epsSK4Rgm0PDLs5e {
+        z-index: 3;
+        position: relative;
+        grid-area: 7 / 5 / 8 / 6;
+      }
+
+      #dlHvqjykkYuKhfVz {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03644647) 0 calc(min(100vw, 1366px) * 0.24873057) calc(min(100vw, 1366px) * 0.02199995) calc(min(100vw, 1366px) * 0.38564603) calc(min(100vw, 1366px) * 0.02199995) calc(min(100vw, 1366px) * 0.24873057) 0 calc(min(100vw, 1366px) * 0.03644647);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.11886996), max-content) minmax(calc(min(100vw, 1366px) * 0.0701597), max-content) minmax(calc(min(100vw, 1366px) * 0.69608481), max-content) minmax(calc(min(100vw, 1366px) * 0.2591253), max-content) minmax(calc(min(100vw, 1366px) * 0.09371853), max-content) minmax(calc(min(100vw, 1366px) * 0.02948584), max-content) minmax(calc(min(100vw, 1366px) * 0.05100735), max-content) minmax(calc(min(100vw, 1366px) * 0.02303592), max-content) minmax(calc(min(100vw, 1366px) * 0.11886996), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #jcCA8xslBcqKfQSd {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 13.63907423vh;
+      }
+
+      #gefZMSWJNxsotxpk {
+        font-size: max(12px, calc((91.46666667rem * 20.1919934 / 343) - 0.5px));
+      }
+
+      #BYIWMfSsnB5cN7TA {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 20.1919934 / 343)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 20.1919934 / 343)) * -0.05);
+      }
+
+      #YaefpRSGhKYs11Xi {
+        z-index: 6;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 15;
+      }
+
+      #tdSBCR4pwRS8c8en {
+        z-index: 0;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #P83Msyyg0uyko9FF {
+        font-size: max(12px, calc((91.46666667rem * 16.4960264 / 343) - 0.5px));
+      }
+
+      #cNCKYniwilG1jWr2 {
+        font-size: max(12px, calc((91.46666667rem * 16.4960264 / 343) - 0.5px));
+      }
+
+      #o0jGQsK38v6sTJbd {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.02));
+        margin-top: calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.05);
+      }
+
+      #WyVdomXkcLXAoyNf {
+        z-index: 3;
+        position: relative;
+        grid-area: 6 / 6 / 7 / 12;
+      }
+
+      #abozNZ9FbdZcuH9O {
+        z-index: 1;
+        position: relative;
+        grid-area: 8 / 4 / 9 / 10;
+      }
+
+      #T8r8S2Xyya5pdE65 {
+        font-size: max(12px, calc((91.46666667rem * 16.4960264 / 343) - 0.5px));
+      }
+
+      #mXKlJ34WpQ4pHXrY {
+        font-size: max(12px, calc((91.46666667rem * 16.4960264 / 343) - 0.5px));
+      }
+
+      #ISvaU8FE87M5lc6L {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.02));
+        margin-top: calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.05);
+      }
+
+      #dbkgYAl7HB1qvZ0q {
+        z-index: 4;
+        position: relative;
+        grid-area: 10 / 7 / 11 / 13;
+      }
+
+      #zwQ6eKjLF4oXrNNB {
+        z-index: 2;
+        position: relative;
+        grid-area: 12 / 5 / 13 / 11;
+      }
+
+      #VSKJP5H70fpUq7fL {
+        font-size: max(12px, calc((91.46666667rem * 16.4960264 / 343) - 0.5px));
+      }
+
+      #myyAEz8VXQJNyoFa {
+        font-size: max(12px, calc((91.46666667rem * 16.4960264 / 343) - 0.5px));
+      }
+
+      #OSrV9JtFsGPUh43l {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.02));
+        margin-top: calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 16.4960264 / 343)) * -0.05);
+      }
+
+      #OExwT29Xe4SRIZpq {
+        z-index: 5;
+        position: relative;
+        grid-area: 14 / 8 / 15 / 14;
+      }
+
+      #XxdNVmh8w5yjvh9C {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03644647) calc(min(100vw, 1366px) * 0.10622789) 0 0 0 0 0 calc(min(100vw, 1366px) * 0.71465129) 0 0 0 0 0 calc(min(100vw, 1366px) * 0.10622789) calc(min(100vw, 1366px) * 0.03644647);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 0.06442355), max-content) minmax(calc(min(100vw, 1366px) * 0.21843953), max-content) minmax(calc(min(100vw, 1366px) * 0.92805238), max-content) minmax(calc(min(100vw, 1366px) * 0.05162906), max-content) minmax(calc(min(100vw, 1366px) * 0.10343062), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 0.92805238), max-content) minmax(calc(min(100vw, 1366px) * 0.05305275), max-content) minmax(calc(min(100vw, 1366px) * 0.10343062), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 0.92805238), max-content) minmax(calc(min(100vw, 1366px) * 0.05162906), max-content) minmax(calc(min(100vw, 1366px) * 0.10343062), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #RUyiq5cBqkEn5va1 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 35.04479349vh;
+      }
+
+      #Lh2HlpXN0KxjhZYc {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 4 / 3 / 9;
+      }
+
+      #eqN0GkNsRBjWFJV3 {
+        font-size: max(12px, calc((91.46666667rem * 56.13000202 / 343) - 0.5px));
+      }
+
+      #AK9GC5mkEuoheRO7 {
+        font-size: max(12px, calc((91.46666667rem * 56.13000202 / 343) - 0.5px));
+      }
+
+      #syPFJJGFdDb1dhML {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 56.13000202 / 343)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 56.13000202 / 343)) * 0.1);
+      }
+
+      #h4AYPgwyaEkeS9zA {
+        z-index: 2;
+        position: relative;
+        grid-area: 4 / 2 / 5 / 10;
+      }
+
+      #K4Z8X32YY0LBwEnh {
+        font-size: max(12px, calc((91.46666667rem * 19.42965345 / 343) - 0.5px));
+      }
+
+      #S5mMrT2K1PViqMNe {
+        font-size: max(12px, calc((91.46666667rem * 19.42965345 / 343) - 0.5px));
+      }
+
+      #SNFfLMTlNndLwLsp {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 19.42965345 / 343)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 19.42965345 / 343)) * -0.05);
+      }
+
+      #je5AKrdsKSj1UYrh {
+        z-index: 3;
+        position: relative;
+        grid-area: 6 / 3 / 7 / 11;
+      }
+
+      #ClR7RWjZcpQgMWUk {
+        z-index: 4;
+        position: relative;
+        grid-area: 8 / 5 / 11 / 8;
+      }
+
+      #wiCLebc9fzdzCINz {
+        font-size: max(12px, calc((91.46666667rem * 16.4959868 / 343) - 0.5px));
+      }
+
+      #YlnDMcwlhaerv6XG {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 16.4959868 / 343)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 16.4959868 / 343)) * 0.05);
+      }
+
+      #qL3JuTxep8GJUtUl {
+        z-index: 5;
+        position: relative;
+        grid-area: 9 / 6 / 10 / 7;
+      }
+
+      #TSDTctBdUaehiwkQ {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03644647) 0 0 calc(min(100vw, 1366px) * 0.24873057) calc(min(100vw, 1366px) * 0.02199995) calc(min(100vw, 1366px) * 0.38564603) calc(min(100vw, 1366px) * 0.02199995) calc(min(100vw, 1366px) * 0.24873057) 0 0 calc(min(100vw, 1366px) * 0.03644647);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 1.04248642), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 0.33156551), max-content) minmax(calc(min(100vw, 1366px) * 0.02505695), max-content) minmax(calc(min(100vw, 1366px) * 0.12957067), max-content) minmax(calc(min(100vw, 1366px) * 0.07517084), max-content) minmax(calc(min(100vw, 1366px) * 0.03008443), max-content) minmax(calc(min(100vw, 1366px) * 0.04981016), max-content) minmax(calc(min(100vw, 1366px) * 0.02363452), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #vvf1cS0AcOU3Db1u {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 17.47791918vh;
+      }
+
+      #sgr8C2lNAXha3gnX {
+        font-size: max(12px, calc((91.46666667rem * 56.13000202 / 343) - 0.5px));
+      }
+
+      #FvEfeMOF9QxtcS8l {
+        font-size: max(12px, calc((91.46666667rem * 56.13000202 / 343) - 0.5px));
+      }
+
+      #AjSkTL3E7v1IGQf7 {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 56.13000202 / 343)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 56.13000202 / 343)) * 0.1);
+      }
+
+      #K1inQHZgD16k4w0O {
+        z-index: 2;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 10;
+      }
+
+      #wocmt8dkG7dqadkS {
+        font-size: max(12px, calc((91.46666667rem * 19.42965345 / 343) - 0.5px));
+      }
+
+      #uVMpvAeJVt4CrzXw {
+        font-size: max(12px, calc((91.46666667rem * 19.42965345 / 343) - 0.5px));
+      }
+
+      #Z2RNe9PQxI5ny8Gu {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 19.42965345 / 343)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 19.42965345 / 343)) * -0.05);
+      }
+
+      #oU76h8KDNMNVcFSj {
+        z-index: 3;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 11;
+      }
+
+      #wn4spMaTRGUqx0bp {
+        z-index: 4;
+        position: relative;
+        grid-area: 6 / 5 / 9 / 8;
+      }
+
+      #LFPLlpSdDy53q5oB {
+        font-size: max(12px, calc((91.46666667rem * 16.4959868 / 343) - 0.5px));
+      }
+
+      #kHd5R303WUdfmOHm {
+        transform: translateX(calc(max(12px, calc(91.46666667rem * 16.4959868 / 343)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 16.4959868 / 343)) * 0.05);
+      }
+
+      #hQHCecQRWZzVQP2M {
+        z-index: 5;
+        position: relative;
+        grid-area: 7 / 6 / 8 / 7;
+      }
+
+      #WflyP0eGt00dSEjM {
+        z-index: 0;
+        position: relative;
+        grid-area: 10 / 4 / 11 / 9;
+      }
+
+      #tlTYc5Q2UldM0bss {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03644647) 0 0 calc(min(100vw, 1366px) * 0.24873057) calc(min(100vw, 1366px) * 0.02199995) calc(min(100vw, 1366px) * 0.38564603) calc(min(100vw, 1366px) * 0.02199995) calc(min(100vw, 1366px) * 0.24873057) 0 0 calc(min(100vw, 1366px) * 0.03644647);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 0.33261867), max-content) minmax(calc(min(100vw, 1366px) * 0.02505695), max-content) minmax(calc(min(100vw, 1366px) * 0.13080967), max-content) minmax(calc(min(100vw, 1366px) * 0.07517084), max-content) minmax(calc(min(100vw, 1366px) * 0.02948584), max-content) minmax(calc(min(100vw, 1366px) * 0.05100735), max-content) minmax(calc(min(100vw, 1366px) * 0.02303592), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 1.04248642), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #HPjkdas1w87N2Gi2 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 17.49932698vh;
+      }
+
+      #uzgERPxKs7ngQ9cY {
+        font-size: max(0px, calc((91.46666667rem * 27.720099 / 343) - 0.5px));
+      }
+
+      #P8wcVvNQ2j6ZTiRe {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(91.46666667rem * 27.720099 / 343)) * 0.05);
+        margin-bottom: calc(max(0px, calc(91.46666667rem * 27.720099 / 343)) * 0.05);
+      }
+
+      #crxQTO2qJdqHqMgr {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 6;
+      }
+
+      #kVI5EDtgj5O2xRf3 {
+        font-size: max(12px, calc((91.46666667rem * 31.680099 / 343) - 0.5px));
+      }
+
+      #cROS9TKsVpOXCYvr {
+        font-size: max(12px, calc((91.46666667rem * 31.680099 / 343) - 0.5px));
+      }
+
+      #sAu0vFjhyiVr6pKK {
+        font-size: max(12px, calc((91.46666667rem * 31.680099 / 343) - 0.5px));
+      }
+
+      #FSzYqRWVkO77J1Va {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(91.46666667rem * 31.680099 / 343)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 31.680099 / 343)) * -0.05);
+      }
+
+      #pvKPKE0GYMrJBJw6 {
+        z-index: 1;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 7;
+      }
+
+      #EPWLLFVYJLL1QP90 {
+        font-size: max(12px, calc((91.46666667rem * 23.31100003 / 343) - 0.5px));
+      }
+
+      #FT1JkryboIFjbgmK {
+        font-size: max(12px, calc((91.46666667rem * 23.31100003 / 343) - 0.5px));
+      }
+
+      #sbdse8BA534ei1Bw {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(91.46666667rem * 23.31100003 / 343)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 23.31100003 / 343)) * -0.05);
+      }
+
+      #wzJLzdNqQQNTlMIn {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 4 / 7 / 8;
+      }
+
+      #H46nv4RNLMIDvKNb {
+        font-size: max(12px, calc((91.46666667rem * 18.480132 / 343) - 0.5px));
+      }
+
+      #wKClm4T5bUKdxmqb {
+        font-size: max(12px, calc((91.46666667rem * 18.480132 / 343) - 0.5px));
+      }
+
+      #gntYOG5LyxbRwhpe {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(91.46666667rem * 18.480132 / 343)) * 0.05);
+        margin-bottom: calc(max(12px, calc(91.46666667rem * 18.480132 / 343)) * -0.05);
+      }
+
+      #RbX1RWeeQqSOZDmk {
+        z-index: 3;
+        position: relative;
+        grid-area: 8 / 5 / 9 / 9;
+      }
+
+      #If62GdIySoOzONQP {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03644647) 0 0 0 calc(min(100vw, 1366px) * 0.92710706) 0 0 0 calc(min(100vw, 1366px) * 0.03644647);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.15479802), max-content) minmax(calc(min(100vw, 1366px) * 0.0701597), max-content) minmax(calc(min(100vw, 1366px) * 0.51572787), max-content) minmax(calc(min(100vw, 1366px) * 0.27227167), max-content) minmax(calc(min(100vw, 1366px) * 0.0546697), max-content) minmax(calc(min(100vw, 1366px) * 0.15694024), max-content) minmax(calc(min(100vw, 1366px) * 0.26497801), max-content) minmax(calc(min(100vw, 1366px) * 0.10508729), max-content) minmax(calc(min(100vw, 1366px) * 0.15479802), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #SetClIPTCxBG8buP {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 16.33888612vh;
+      }
+    }
+
+    @media screen and (min-width: 375.05px) and (max-width: 480px) {
+      #XwxtcW4CZ3xHNT8b {
+        font-size: max(0px, calc((93.33333333rem * 27.720099 / 448) - 0.5px));
+      }
+
+      #mzA2Cjkna7XqY6vs {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(93.33333333rem * 27.720099 / 448)) * 0.05);
+        margin-bottom: calc(max(0px, calc(93.33333333rem * 27.720099 / 448)) * 0.05);
+      }
+
+      #mSlUos0H1DELSfLX {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 8;
+      }
+
+      #N92xmWIY3dOs316m {
+        font-size: max(12px, calc((93.33333333rem * 57.34159261 / 448) - 0.5px));
+      }
+
+      #jQih7tJkGKHxi2Oc {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 57.34159261 / 448)) * -0.02));
+        margin-top: calc(max(12px, calc(93.33333333rem * 57.34159261 / 448)) * -0.1);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 57.34159261 / 448)) * 0.1);
+      }
+
+      #fS1NlHtZ36uEIig2 {
+        z-index: 4;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #xZ3z9Gaj6JLgZb90 {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 4 / 9 / 7;
+      }
+
+      #cbc8TDCq5MXdRf6X {
+        font-size: max(12px, calc((93.33333333rem * 16.4959868 / 448) - 0.5px));
+      }
+
+      #kn8OxBryPkdRBqmT {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 16.4959868 / 448)) * 0.025));
+        margin-top: calc(max(12px, calc(93.33333333rem * 16.4959868 / 448)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 16.4959868 / 448)) * 0.05);
+      }
+
+      #epsSK4Rgm0PDLs5e {
+        z-index: 3;
+        position: relative;
+        grid-area: 7 / 5 / 8 / 6;
+      }
+
+      #dlHvqjykkYuKhfVz {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02941176) 0 calc(min(100vw, 1366px) * 0.29722926) calc(min(100vw, 1366px) * 0.01775364) calc(min(100vw, 1366px) * 0.31121067) calc(min(100vw, 1366px) * 0.01775364) calc(min(100vw, 1366px) * 0.29722926) 0 calc(min(100vw, 1366px) * 0.02941176);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.10117138), max-content) minmax(calc(min(100vw, 1366px) * 0.05661785), max-content) minmax(calc(min(100vw, 1366px) * 0.5617302), max-content) minmax(calc(min(100vw, 1366px) * 0.26305769), max-content) minmax(calc(min(100vw, 1366px) * 0.07562948), max-content) minmax(calc(min(100vw, 1366px) * 0.02379464), max-content) minmax(calc(min(100vw, 1366px) * 0.04116218), max-content) minmax(calc(min(100vw, 1366px) * 0.01858965), max-content) minmax(calc(min(100vw, 1366px) * 0.10117138), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #jcCA8xslBcqKfQSd {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 13.53105974vh;
+      }
+
+      #gefZMSWJNxsotxpk {
+        font-size: max(12px, calc((93.33333333rem * 26.10367651 / 448) - 0.5px));
+      }
+
+      #BYIWMfSsnB5cN7TA {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 26.10367651 / 448)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 26.10367651 / 448)) * -0.05);
+      }
+
+      #YaefpRSGhKYs11Xi {
+        z-index: 6;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 15;
+      }
+
+      #tdSBCR4pwRS8c8en {
+        z-index: 0;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #P83Msyyg0uyko9FF {
+        font-size: max(12px, calc((93.33333333rem * 16.4960264 / 448) - 0.5px));
+      }
+
+      #cNCKYniwilG1jWr2 {
+        font-size: max(12px, calc((93.33333333rem * 16.4960264 / 448) - 0.5px));
+      }
+
+      #o0jGQsK38v6sTJbd {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.02));
+        margin-top: calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.05);
+      }
+
+      #WyVdomXkcLXAoyNf {
+        z-index: 3;
+        position: relative;
+        grid-area: 6 / 6 / 7 / 12;
+      }
+
+      #abozNZ9FbdZcuH9O {
+        z-index: 1;
+        position: relative;
+        grid-area: 8 / 4 / 9 / 10;
+      }
+
+      #T8r8S2Xyya5pdE65 {
+        font-size: max(12px, calc((93.33333333rem * 16.4960264 / 448) - 0.5px));
+      }
+
+      #mXKlJ34WpQ4pHXrY {
+        font-size: max(12px, calc((93.33333333rem * 16.4960264 / 448) - 0.5px));
+      }
+
+      #ISvaU8FE87M5lc6L {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.02));
+        margin-top: calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.05);
+      }
+
+      #dbkgYAl7HB1qvZ0q {
+        z-index: 4;
+        position: relative;
+        grid-area: 10 / 7 / 11 / 13;
+      }
+
+      #zwQ6eKjLF4oXrNNB {
+        z-index: 2;
+        position: relative;
+        grid-area: 12 / 5 / 13 / 11;
+      }
+
+      #VSKJP5H70fpUq7fL {
+        font-size: max(12px, calc((93.33333333rem * 16.4960264 / 448) - 0.5px));
+      }
+
+      #myyAEz8VXQJNyoFa {
+        font-size: max(12px, calc((93.33333333rem * 16.4960264 / 448) - 0.5px));
+      }
+
+      #OSrV9JtFsGPUh43l {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.02));
+        margin-top: calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 16.4960264 / 448)) * -0.05);
+      }
+
+      #OExwT29Xe4SRIZpq {
+        z-index: 5;
+        position: relative;
+        grid-area: 14 / 8 / 15 / 14;
+      }
+
+      #XxdNVmh8w5yjvh9C {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02941176) calc(min(100vw, 1366px) * 0.18223169) 0 0 0 0 0 calc(min(100vw, 1366px) * 0.57671308) 0 0 0 0 0 calc(min(100vw, 1366px) * 0.18223169) calc(min(100vw, 1366px) * 0.02941176);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 0.06540122), max-content) minmax(calc(min(100vw, 1366px) * 0.17627749), max-content) minmax(calc(min(100vw, 1366px) * 0.74892462), max-content) minmax(calc(min(100vw, 1366px) * 0.04166389), max-content) minmax(calc(min(100vw, 1366px) * 0.08346699), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 0.74892462), max-content) minmax(calc(min(100vw, 1366px) * 0.04281279), max-content) minmax(calc(min(100vw, 1366px) * 0.08346699), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 0.74892462), max-content) minmax(calc(min(100vw, 1366px) * 0.04166389), max-content) minmax(calc(min(100vw, 1366px) * 0.08346699), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #RUyiq5cBqkEn5va1 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 33.11081427vh;
+      }
+
+      #Lh2HlpXN0KxjhZYc {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 11;
+      }
+
+      #eqN0GkNsRBjWFJV3 {
+        font-size: max(12px, calc((93.33333333rem * 60.56458941 / 448) - 0.5px));
+      }
+
+      #AK9GC5mkEuoheRO7 {
+        font-size: max(12px, calc((93.33333333rem * 60.56458941 / 448) - 0.5px));
+      }
+
+      #syPFJJGFdDb1dhML {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 60.56458941 / 448)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 60.56458941 / 448)) * 0.1);
+      }
+
+      #h4AYPgwyaEkeS9zA {
+        z-index: 2;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #K4Z8X32YY0LBwEnh {
+        font-size: max(12px, calc((93.33333333rem * 20.96470588 / 448) - 0.5px));
+      }
+
+      #S5mMrT2K1PViqMNe {
+        font-size: max(12px, calc((93.33333333rem * 20.96470588 / 448) - 0.5px));
+      }
+
+      #SNFfLMTlNndLwLsp {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 20.96470588 / 448)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 20.96470588 / 448)) * -0.05);
+      }
+
+      #je5AKrdsKSj1UYrh {
+        z-index: 3;
+        position: relative;
+        grid-area: 6 / 4 / 7 / 10;
+      }
+
+      #ClR7RWjZcpQgMWUk {
+        z-index: 4;
+        position: relative;
+        grid-area: 8 / 5 / 11 / 8;
+      }
+
+      #wiCLebc9fzdzCINz {
+        font-size: max(12px, calc((93.33333333rem * 16.4959868 / 448) - 0.5px));
+      }
+
+      #YlnDMcwlhaerv6XG {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 16.4959868 / 448)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 16.4959868 / 448)) * 0.05);
+      }
+
+      #qL3JuTxep8GJUtUl {
+        z-index: 5;
+        position: relative;
+        grid-area: 9 / 6 / 10 / 7;
+      }
+
+      #TSDTctBdUaehiwkQ {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02941176) calc(min(100vw, 1366px) * 0.07982505) 0 calc(min(100vw, 1366px) * 0.21740421) calc(min(100vw, 1366px) * 0.01775364) calc(min(100vw, 1366px) * 0.31121067) calc(min(100vw, 1366px) * 0.01775364) calc(min(100vw, 1366px) * 0.21740421) 0 calc(min(100vw, 1366px) * 0.07982505) calc(min(100vw, 1366px) * 0.02941176);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 1.05830678), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 0.27950082), max-content) minmax(calc(min(100vw, 1366px) * 0.02022059), max-content) minmax(calc(min(100vw, 1366px) * 0.1092246), max-content) minmax(calc(min(100vw, 1366px) * 0.06066176), max-content) minmax(calc(min(100vw, 1366px) * 0.0242777), max-content) minmax(calc(min(100vw, 1366px) * 0.04019607), max-content) minmax(calc(min(100vw, 1366px) * 0.01907271), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #vvf1cS0AcOU3Db1u {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 18.98397835vh;
+      }
+
+      #sgr8C2lNAXha3gnX {
+        font-size: max(12px, calc((93.33333333rem * 60.56458941 / 448) - 0.5px));
+      }
+
+      #FvEfeMOF9QxtcS8l {
+        font-size: max(12px, calc((93.33333333rem * 60.56458941 / 448) - 0.5px));
+      }
+
+      #AjSkTL3E7v1IGQf7 {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 60.56458941 / 448)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 60.56458941 / 448)) * 0.1);
+      }
+
+      #K1inQHZgD16k4w0O {
+        z-index: 2;
+        position: relative;
+        grid-area: 2 / 3 / 3 / 9;
+      }
+
+      #wocmt8dkG7dqadkS {
+        font-size: max(12px, calc((93.33333333rem * 20.96470588 / 448) - 0.5px));
+      }
+
+      #uVMpvAeJVt4CrzXw {
+        font-size: max(12px, calc((93.33333333rem * 20.96470588 / 448) - 0.5px));
+      }
+
+      #Z2RNe9PQxI5ny8Gu {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 20.96470588 / 448)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 20.96470588 / 448)) * -0.05);
+      }
+
+      #oU76h8KDNMNVcFSj {
+        z-index: 3;
+        position: relative;
+        grid-area: 4 / 4 / 5 / 10;
+      }
+
+      #wn4spMaTRGUqx0bp {
+        z-index: 4;
+        position: relative;
+        grid-area: 6 / 5 / 9 / 8;
+      }
+
+      #LFPLlpSdDy53q5oB {
+        font-size: max(12px, calc((93.33333333rem * 16.4959868 / 448) - 0.5px));
+      }
+
+      #kHd5R303WUdfmOHm {
+        transform: translateX(calc(max(12px, calc(93.33333333rem * 16.4959868 / 448)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 16.4959868 / 448)) * 0.05);
+      }
+
+      #hQHCecQRWZzVQP2M {
+        z-index: 5;
+        position: relative;
+        grid-area: 7 / 6 / 8 / 7;
+      }
+
+      #WflyP0eGt00dSEjM {
+        z-index: 0;
+        position: relative;
+        grid-area: 10 / 2 / 11 / 11;
+      }
+
+      #tlTYc5Q2UldM0bss {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02941176) calc(min(100vw, 1366px) * 0.07982505) 0 calc(min(100vw, 1366px) * 0.21740421) calc(min(100vw, 1366px) * 0.01775364) calc(min(100vw, 1366px) * 0.31121067) calc(min(100vw, 1366px) * 0.01775364) calc(min(100vw, 1366px) * 0.21740421) 0 calc(min(100vw, 1366px) * 0.07982505) calc(min(100vw, 1366px) * 0.02941176);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 0.28038861), max-content) minmax(calc(min(100vw, 1366px) * 0.02022059), max-content) minmax(calc(min(100vw, 1366px) * 0.11026904), max-content) minmax(calc(min(100vw, 1366px) * 0.06066176), max-content) minmax(calc(min(100vw, 1366px) * 0.02379464), max-content) minmax(calc(min(100vw, 1366px) * 0.04116218), max-content) minmax(calc(min(100vw, 1366px) * 0.01858965), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 1.05830678), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #HPjkdas1w87N2Gi2 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 19.00501357vh;
+      }
+
+      #uzgERPxKs7ngQ9cY {
+        font-size: max(0px, calc((93.33333333rem * 27.720099 / 448) - 0.5px));
+      }
+
+      #P8wcVvNQ2j6ZTiRe {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(93.33333333rem * 27.720099 / 448)) * 0.05);
+        margin-bottom: calc(max(0px, calc(93.33333333rem * 27.720099 / 448)) * 0.05);
+      }
+
+      #crxQTO2qJdqHqMgr {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 6;
+      }
+
+      #kVI5EDtgj5O2xRf3 {
+        font-size: max(12px, calc((93.33333333rem * 31.680099 / 448) - 0.5px));
+      }
+
+      #cROS9TKsVpOXCYvr {
+        font-size: max(12px, calc((93.33333333rem * 31.680099 / 448) - 0.5px));
+      }
+
+      #sAu0vFjhyiVr6pKK {
+        font-size: max(12px, calc((93.33333333rem * 31.680099 / 448) - 0.5px));
+      }
+
+      #FSzYqRWVkO77J1Va {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(93.33333333rem * 31.680099 / 448)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 31.680099 / 448)) * -0.05);
+      }
+
+      #pvKPKE0GYMrJBJw6 {
+        z-index: 1;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 7;
+      }
+
+      #EPWLLFVYJLL1QP90 {
+        font-size: max(12px, calc((93.33333333rem * 30.29089091 / 448) - 0.5px));
+      }
+
+      #FT1JkryboIFjbgmK {
+        font-size: max(12px, calc((93.33333333rem * 30.29089091 / 448) - 0.5px));
+      }
+
+      #sbdse8BA534ei1Bw {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(93.33333333rem * 30.29089091 / 448)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 30.29089091 / 448)) * -0.05);
+      }
+
+      #wzJLzdNqQQNTlMIn {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 4 / 7 / 8;
+      }
+
+      #H46nv4RNLMIDvKNb {
+        font-size: max(12px, calc((93.33333333rem * 18.480132 / 448) - 0.5px));
+      }
+
+      #wKClm4T5bUKdxmqb {
+        font-size: max(12px, calc((93.33333333rem * 18.480132 / 448) - 0.5px));
+      }
+
+      #gntYOG5LyxbRwhpe {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(93.33333333rem * 18.480132 / 448)) * 0.05);
+        margin-bottom: calc(max(12px, calc(93.33333333rem * 18.480132 / 448)) * -0.05);
+      }
+
+      #RbX1RWeeQqSOZDmk {
+        z-index: 3;
+        position: relative;
+        grid-area: 8 / 5 / 9 / 9;
+      }
+
+      #If62GdIySoOzONQP {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02941176) 0 0 0 calc(min(100vw, 1366px) * 0.94117647) 0 0 0 calc(min(100vw, 1366px) * 0.02941176);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.11473127), max-content) minmax(calc(min(100vw, 1366px) * 0.05661785), max-content) minmax(calc(min(100vw, 1366px) * 0.41618481), max-content) minmax(calc(min(100vw, 1366px) * 0.21971923), max-content) minmax(calc(min(100vw, 1366px) * 0.04411765), max-content) minmax(calc(min(100vw, 1366px) * 0.14702538), max-content) minmax(calc(min(100vw, 1366px) * 0.21383336), max-content) minmax(calc(min(100vw, 1366px) * 0.0848039), max-content) minmax(calc(min(100vw, 1366px) * 0.11473127), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #SetClIPTCxBG8buP {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 15.36913408vh;
+      }
+    }
+
+    @media screen and (min-width: 480.05px) and (max-width: 768px) {
+      #XwxtcW4CZ3xHNT8b {
+        font-size: max(0px, calc((91.66666667rem * 27.720099 / 704) - 0.5px));
+      }
+
+      #mzA2Cjkna7XqY6vs {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(91.66666667rem * 27.720099 / 704)) * 0.05);
+        margin-bottom: calc(max(0px, calc(91.66666667rem * 27.720099 / 704)) * 0.05);
+      }
+
+      #mSlUos0H1DELSfLX {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 9;
+      }
+
+      #N92xmWIY3dOs316m {
+        font-size: max(12px, calc((91.66666667rem * 84.85688829 / 704) - 0.5px));
+      }
+
+      #jQih7tJkGKHxi2Oc {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 84.85688829 / 704)) * -0.02));
+        margin-top: calc(max(12px, calc(91.66666667rem * 84.85688829 / 704)) * -0.1);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 84.85688829 / 704)) * 0.1);
+      }
+
+      #fS1NlHtZ36uEIig2 {
+        z-index: 4;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 8;
+      }
+
+      #xZ3z9Gaj6JLgZb90 {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 4 / 9 / 7;
+      }
+
+      #cbc8TDCq5MXdRf6X {
+        font-size: max(12px, calc((91.66666667rem * 16.4959868 / 704) - 0.5px));
+      }
+
+      #kn8OxBryPkdRBqmT {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 16.4959868 / 704)) * 0.025));
+        margin-top: calc(max(12px, calc(91.66666667rem * 16.4959868 / 704)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 16.4959868 / 704)) * 0.05);
+      }
+
+      #epsSK4Rgm0PDLs5e {
+        z-index: 3;
+        position: relative;
+        grid-area: 7 / 5 / 8 / 6;
+      }
+
+      #dlHvqjykkYuKhfVz {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03571429) calc(min(100vw, 1366px) * 0.02903606) calc(min(100vw, 1366px) * 0.32999599) calc(min(100vw, 1366px) * 0.01077899) calc(min(100vw, 1366px) * 0.18894934) calc(min(100vw, 1366px) * 0.01077899) calc(min(100vw, 1366px) * 0.32999599) calc(min(100vw, 1366px) * 0.02903606) calc(min(100vw, 1366px) * 0.03571429);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.06955258), max-content) minmax(calc(min(100vw, 1366px) * 0.03437512), max-content) minmax(calc(min(100vw, 1366px) * 0.34105048), max-content) minmax(calc(min(100vw, 1366px) * 0.2433035), max-content) minmax(calc(min(100vw, 1366px) * 0.0459179), max-content) minmax(calc(min(100vw, 1366px) * 0.01444674), max-content) minmax(calc(min(100vw, 1366px) * 0.02499133), max-content) minmax(calc(min(100vw, 1366px) * 0.01128657), max-content) minmax(calc(min(100vw, 1366px) * 0.06955258), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #jcCA8xslBcqKfQSd {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 13.77999834vh;
+      }
+
+      #gefZMSWJNxsotxpk {
+        font-size: max(12px, calc((91.66666667rem * 36.959967 / 704) - 0.5px));
+      }
+
+      #BYIWMfSsnB5cN7TA {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 36.959967 / 704)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 36.959967 / 704)) * -0.05);
+      }
+
+      #YaefpRSGhKYs11Xi {
+        z-index: 6;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 15;
+      }
+
+      #tdSBCR4pwRS8c8en {
+        z-index: 0;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #P83Msyyg0uyko9FF {
+        font-size: max(12px, calc((91.66666667rem * 16.4960264 / 704) - 0.5px));
+      }
+
+      #cNCKYniwilG1jWr2 {
+        font-size: max(12px, calc((91.66666667rem * 16.4960264 / 704) - 0.5px));
+      }
+
+      #o0jGQsK38v6sTJbd {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.02));
+        margin-top: calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.05);
+      }
+
+      #WyVdomXkcLXAoyNf {
+        z-index: 3;
+        position: relative;
+        grid-area: 6 / 6 / 7 / 12;
+      }
+
+      #abozNZ9FbdZcuH9O {
+        z-index: 1;
+        position: relative;
+        grid-area: 8 / 4 / 9 / 10;
+      }
+
+      #T8r8S2Xyya5pdE65 {
+        font-size: max(12px, calc((91.66666667rem * 16.4960264 / 704) - 0.5px));
+      }
+
+      #mXKlJ34WpQ4pHXrY {
+        font-size: max(12px, calc((91.66666667rem * 16.4960264 / 704) - 0.5px));
+      }
+
+      #ISvaU8FE87M5lc6L {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.02));
+        margin-top: calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.05);
+      }
+
+      #dbkgYAl7HB1qvZ0q {
+        z-index: 4;
+        position: relative;
+        grid-area: 10 / 7 / 11 / 13;
+      }
+
+      #zwQ6eKjLF4oXrNNB {
+        z-index: 2;
+        position: relative;
+        grid-area: 12 / 5 / 13 / 11;
+      }
+
+      #VSKJP5H70fpUq7fL {
+        font-size: max(12px, calc((91.66666667rem * 16.4960264 / 704) - 0.5px));
+      }
+
+      #myyAEz8VXQJNyoFa {
+        font-size: max(12px, calc((91.66666667rem * 16.4960264 / 704) - 0.5px));
+      }
+
+      #OSrV9JtFsGPUh43l {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.02));
+        margin-top: calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 16.4960264 / 704)) * -0.05);
+      }
+
+      #OExwT29Xe4SRIZpq {
+        z-index: 5;
+        position: relative;
+        grid-area: 14 / 8 / 15 / 14;
+      }
+
+      #XxdNVmh8w5yjvh9C {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03571429) calc(min(100vw, 1366px) * 0.2892121) 0 0 0 0 0 calc(min(100vw, 1366px) * 0.35014723) 0 0 0 0 0 calc(min(100vw, 1366px) * 0.2892121) calc(min(100vw, 1366px) * 0.03571429);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.03571429), max-content) minmax(calc(min(100vw, 1366px) * 0.04960769), max-content) minmax(calc(min(100vw, 1366px) * 0.10702562), max-content) minmax(calc(min(100vw, 1366px) * 0.45470423), max-content) minmax(calc(min(100vw, 1366px) * 0.02529594), max-content) minmax(calc(min(100vw, 1366px) * 0.05067639), max-content) minmax(calc(min(100vw, 1366px) * 0.03571429), max-content) minmax(calc(min(100vw, 1366px) * 0.45470423), max-content) minmax(calc(min(100vw, 1366px) * 0.02599348), max-content) minmax(calc(min(100vw, 1366px) * 0.05067639), max-content) minmax(calc(min(100vw, 1366px) * 0.03571429), max-content) minmax(calc(min(100vw, 1366px) * 0.45470423), max-content) minmax(calc(min(100vw, 1366px) * 0.02529594), max-content) minmax(calc(min(100vw, 1366px) * 0.05067639), max-content) minmax(calc(min(100vw, 1366px) * 0.03571429), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #RUyiq5cBqkEn5va1 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 30.51546414vh;
+      }
+
+      #Lh2HlpXN0KxjhZYc {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 11;
+      }
+
+      #eqN0GkNsRBjWFJV3 {
+        font-size: max(12px, calc((91.66666667rem * 58.83417257 / 704) - 0.5px));
+      }
+
+      #AK9GC5mkEuoheRO7 {
+        font-size: max(12px, calc((91.66666667rem * 58.83417257 / 704) - 0.5px));
+      }
+
+      #syPFJJGFdDb1dhML {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 58.83417257 / 704)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 58.83417257 / 704)) * 0.1);
+      }
+
+      #h4AYPgwyaEkeS9zA {
+        z-index: 2;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #K4Z8X32YY0LBwEnh {
+        font-size: max(12px, calc((91.66666667rem * 20.36571429 / 704) - 0.5px));
+      }
+
+      #S5mMrT2K1PViqMNe {
+        font-size: max(12px, calc((91.66666667rem * 20.36571429 / 704) - 0.5px));
+      }
+
+      #SNFfLMTlNndLwLsp {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 20.36571429 / 704)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 20.36571429 / 704)) * -0.05);
+      }
+
+      #je5AKrdsKSj1UYrh {
+        z-index: 3;
+        position: relative;
+        grid-area: 6 / 4 / 7 / 10;
+      }
+
+      #ClR7RWjZcpQgMWUk {
+        z-index: 4;
+        position: relative;
+        grid-area: 8 / 5 / 11 / 8;
+      }
+
+      #wiCLebc9fzdzCINz {
+        font-size: max(12px, calc((91.66666667rem * 16.4959868 / 704) - 0.5px));
+      }
+
+      #YlnDMcwlhaerv6XG {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 16.4959868 / 704)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 16.4959868 / 704)) * 0.05);
+      }
+
+      #qL3JuTxep8GJUtUl {
+        z-index: 5;
+        position: relative;
+        grid-area: 9 / 6 / 10 / 7;
+      }
+
+      #TSDTctBdUaehiwkQ {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.11886161) calc(min(100vw, 1366px) * 0.14388931) 0 calc(min(100vw, 1366px) * 0.13199542) calc(min(100vw, 1366px) * 0.01077899) calc(min(100vw, 1366px) * 0.18894934) calc(min(100vw, 1366px) * 0.01077899) calc(min(100vw, 1366px) * 0.13199542) 0 calc(min(100vw, 1366px) * 0.14388931) calc(min(100vw, 1366px) * 0.11886161);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.03571429), max-content) minmax(calc(min(100vw, 1366px) * 0.85714286), max-content) minmax(calc(min(100vw, 1366px) * 0.03571429), max-content) minmax(calc(min(100vw, 1366px) * 0.16969693), max-content) minmax(calc(min(100vw, 1366px) * 0.01227679), max-content) minmax(calc(min(100vw, 1366px) * 0.06631493), max-content) minmax(calc(min(100vw, 1366px) * 0.03683036), max-content) minmax(calc(min(100vw, 1366px) * 0.01474003), max-content) minmax(calc(min(100vw, 1366px) * 0.02440475), max-content) minmax(calc(min(100vw, 1366px) * 0.01157986), max-content) minmax(calc(min(100vw, 1366px) * 0.03571429), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #vvf1cS0AcOU3Db1u {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20.9669594vh;
+      }
+
+      #sgr8C2lNAXha3gnX {
+        font-size: max(12px, calc((91.66666667rem * 58.83417257 / 704) - 0.5px));
+      }
+
+      #FvEfeMOF9QxtcS8l {
+        font-size: max(12px, calc((91.66666667rem * 58.83417257 / 704) - 0.5px));
+      }
+
+      #AjSkTL3E7v1IGQf7 {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 58.83417257 / 704)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 58.83417257 / 704)) * 0.1);
+      }
+
+      #K1inQHZgD16k4w0O {
+        z-index: 2;
+        position: relative;
+        grid-area: 2 / 3 / 3 / 9;
+      }
+
+      #wocmt8dkG7dqadkS {
+        font-size: max(12px, calc((91.66666667rem * 20.36571429 / 704) - 0.5px));
+      }
+
+      #uVMpvAeJVt4CrzXw {
+        font-size: max(12px, calc((91.66666667rem * 20.36571429 / 704) - 0.5px));
+      }
+
+      #Z2RNe9PQxI5ny8Gu {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 20.36571429 / 704)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 20.36571429 / 704)) * -0.05);
+      }
+
+      #oU76h8KDNMNVcFSj {
+        z-index: 3;
+        position: relative;
+        grid-area: 4 / 4 / 5 / 10;
+      }
+
+      #wn4spMaTRGUqx0bp {
+        z-index: 4;
+        position: relative;
+        grid-area: 6 / 5 / 9 / 8;
+      }
+
+      #LFPLlpSdDy53q5oB {
+        font-size: max(12px, calc((91.66666667rem * 16.4959868 / 704) - 0.5px));
+      }
+
+      #kHd5R303WUdfmOHm {
+        transform: translateX(calc(max(12px, calc(91.66666667rem * 16.4959868 / 704)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 16.4959868 / 704)) * 0.05);
+      }
+
+      #hQHCecQRWZzVQP2M {
+        z-index: 5;
+        position: relative;
+        grid-area: 7 / 6 / 8 / 7;
+      }
+
+      #WflyP0eGt00dSEjM {
+        z-index: 0;
+        position: relative;
+        grid-area: 10 / 2 / 11 / 11;
+      }
+
+      #tlTYc5Q2UldM0bss {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.11886161) calc(min(100vw, 1366px) * 0.14388931) 0 calc(min(100vw, 1366px) * 0.13199542) calc(min(100vw, 1366px) * 0.01077899) calc(min(100vw, 1366px) * 0.18894934) calc(min(100vw, 1366px) * 0.01077899) calc(min(100vw, 1366px) * 0.13199542) 0 calc(min(100vw, 1366px) * 0.14388931) calc(min(100vw, 1366px) * 0.11886161);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.03571429), max-content) minmax(calc(min(100vw, 1366px) * 0.17023594), max-content) minmax(calc(min(100vw, 1366px) * 0.01227679), max-content) minmax(calc(min(100vw, 1366px) * 0.06694906), max-content) minmax(calc(min(100vw, 1366px) * 0.03683036), max-content) minmax(calc(min(100vw, 1366px) * 0.01444674), max-content) minmax(calc(min(100vw, 1366px) * 0.02499133), max-content) minmax(calc(min(100vw, 1366px) * 0.01128657), max-content) minmax(calc(min(100vw, 1366px) * 0.03571429), max-content) minmax(calc(min(100vw, 1366px) * 0.85714286), max-content) minmax(calc(min(100vw, 1366px) * 0.03571429), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #HPjkdas1w87N2Gi2 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20.98587847vh;
+      }
+
+      #uzgERPxKs7ngQ9cY {
+        font-size: max(0px, calc((91.66666667rem * 27.720099 / 704) - 0.5px));
+      }
+
+      #P8wcVvNQ2j6ZTiRe {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(91.66666667rem * 27.720099 / 704)) * 0.05);
+        margin-bottom: calc(max(0px, calc(91.66666667rem * 27.720099 / 704)) * 0.05);
+      }
+
+      #crxQTO2qJdqHqMgr {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 8;
+      }
+
+      #kVI5EDtgj5O2xRf3 {
+        font-size: max(12px, calc((91.66666667rem * 27.15437057 / 704) - 0.5px));
+      }
+
+      #cROS9TKsVpOXCYvr {
+        font-size: max(12px, calc((91.66666667rem * 27.15437057 / 704) - 0.5px));
+      }
+
+      #sAu0vFjhyiVr6pKK {
+        font-size: max(12px, calc((91.66666667rem * 27.15437057 / 704) - 0.5px));
+      }
+
+      #FSzYqRWVkO77J1Va {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(91.66666667rem * 27.15437057 / 704)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 27.15437057 / 704)) * -0.05);
+      }
+
+      #pvKPKE0GYMrJBJw6 {
+        z-index: 1;
+        position: relative;
+        grid-area: 4 / 3 / 7 / 5;
+      }
+
+      #EPWLLFVYJLL1QP90 {
+        font-size: max(12px, calc((91.66666667rem * 27.15437057 / 704) - 0.5px));
+      }
+
+      #FT1JkryboIFjbgmK {
+        font-size: max(12px, calc((91.66666667rem * 27.15437057 / 704) - 0.5px));
+      }
+
+      #sbdse8BA534ei1Bw {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(91.66666667rem * 27.15437057 / 704)) * -0.05);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 27.15437057 / 704)) * -0.05);
+      }
+
+      #wzJLzdNqQQNTlMIn {
+        z-index: 2;
+        position: relative;
+        grid-area: 5 / 6 / 6 / 7;
+      }
+
+      #H46nv4RNLMIDvKNb {
+        font-size: max(12px, calc((91.66666667rem * 18.480132 / 704) - 0.5px));
+      }
+
+      #wKClm4T5bUKdxmqb {
+        font-size: max(12px, calc((91.66666667rem * 18.480132 / 704) - 0.5px));
+      }
+
+      #gntYOG5LyxbRwhpe {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(91.66666667rem * 18.480132 / 704)) * 0.05);
+        margin-bottom: calc(max(12px, calc(91.66666667rem * 18.480132 / 704)) * -0.05);
+      }
+
+      #RbX1RWeeQqSOZDmk {
+        z-index: 3;
+        position: relative;
+        grid-area: 8 / 4 / 9 / 9;
+      }
+
+      #If62GdIySoOzONQP {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.03571429) 0 0 calc(min(100vw, 1366px) * 0.26616481) calc(min(100vw, 1366px) * 0.10585902) calc(min(100vw, 1366px) * 0.5273255) calc(min(100vw, 1366px) * 0.0292221) 0 calc(min(100vw, 1366px) * 0.03571429);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.12547343), max-content) minmax(calc(min(100vw, 1366px) * 0.03437512), max-content) minmax(calc(min(100vw, 1366px) * 0.25268363), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.08926541), max-content) minmax(calc(min(100vw, 1366px) * 0.04413555), max-content) minmax(calc(min(100vw, 1366px) * 0.1298274), max-content) minmax(calc(min(100vw, 1366px) * 0.05148808), max-content) minmax(calc(min(100vw, 1366px) * 0.12547343), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #SetClIPTCxBG8buP {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 13.75169965vh;
+      }
+    }
+
+    @media screen and (min-width: 768.05px) and (max-width: 1024px) {
+      #XwxtcW4CZ3xHNT8b {
+        font-size: max(0px, calc((93.75rem * 27.720099 / 960) - 0.5px));
+      }
+
+      #mzA2Cjkna7XqY6vs {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(93.75rem * 27.720099 / 960)) * 0.05);
+        margin-bottom: calc(max(0px, calc(93.75rem * 27.720099 / 960)) * 0.05);
+      }
+
+      #mSlUos0H1DELSfLX {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 9;
+      }
+
+      #N92xmWIY3dOs316m {
+        font-size: max(12px, calc((93.75rem * 87.999736 / 960) - 0.5px));
+      }
+
+      #jQih7tJkGKHxi2Oc {
+        transform: translateX(calc(max(12px, calc(93.75rem * 87.999736 / 960)) * -0.02));
+        margin-top: calc(max(12px, calc(93.75rem * 87.999736 / 960)) * -0.1);
+        margin-bottom: calc(max(12px, calc(93.75rem * 87.999736 / 960)) * 0.1);
+      }
+
+      #fS1NlHtZ36uEIig2 {
+        z-index: 4;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 8;
+      }
+
+      #xZ3z9Gaj6JLgZb90 {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 4 / 9 / 7;
+      }
+
+      #cbc8TDCq5MXdRf6X {
+        font-size: max(12px, calc((93.75rem * 16.4959868 / 960) - 0.5px));
+      }
+
+      #kn8OxBryPkdRBqmT {
+        transform: translateX(calc(max(12px, calc(93.75rem * 16.4959868 / 960)) * 0.025));
+        margin-top: calc(max(12px, calc(93.75rem * 16.4959868 / 960)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.75rem * 16.4959868 / 960)) * 0.05);
+      }
+
+      #epsSK4Rgm0PDLs5e {
+        z-index: 3;
+        position: relative;
+        grid-area: 7 / 5 / 8 / 6;
+      }
+
+      #dlHvqjykkYuKhfVz {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02777778) calc(min(100vw, 1366px) * 0.13369471) calc(min(100vw, 1366px) * 0.25666355) calc(min(100vw, 1366px) * 0.00838366) calc(min(100vw, 1366px) * 0.1469606) calc(min(100vw, 1366px) * 0.00838366) calc(min(100vw, 1366px) * 0.25666355) calc(min(100vw, 1366px) * 0.13369471) calc(min(100vw, 1366px) * 0.02777778);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.05409645), max-content) minmax(calc(min(100vw, 1366px) * 0.02673621), max-content) minmax(calc(min(100vw, 1366px) * 0.26526148), max-content) minmax(calc(min(100vw, 1366px) * 0.18923606), max-content) minmax(calc(min(100vw, 1366px) * 0.03571392), max-content) minmax(calc(min(100vw, 1366px) * 0.01123636), max-content) minmax(calc(min(100vw, 1366px) * 0.0194377), max-content) minmax(calc(min(100vw, 1366px) * 0.00877845), max-content) minmax(calc(min(100vw, 1366px) * 0.05409645), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #jcCA8xslBcqKfQSd {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 16.54111996vh;
+      }
+
+      #gefZMSWJNxsotxpk {
+        font-size: max(12px, calc((93.75rem * 36.959967 / 960) - 0.5px));
+      }
+
+      #BYIWMfSsnB5cN7TA {
+        transform: translateX(calc(max(12px, calc(93.75rem * 36.959967 / 960)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.75rem * 36.959967 / 960)) * -0.05);
+      }
+
+      #YaefpRSGhKYs11Xi {
+        z-index: 6;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 15;
+      }
+
+      #tdSBCR4pwRS8c8en {
+        z-index: 0;
+        position: relative;
+        grid-area: 4 / 3 / 7 / 5;
+      }
+
+      #P83Msyyg0uyko9FF {
+        font-size: max(12px, calc((93.75rem * 16.4960264 / 960) - 0.5px));
+      }
+
+      #cNCKYniwilG1jWr2 {
+        font-size: max(12px, calc((93.75rem * 16.4960264 / 960) - 0.5px));
+      }
+
+      #o0jGQsK38v6sTJbd {
+        transform: translateX(calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.02));
+        margin-top: calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.05);
+      }
+
+      #WyVdomXkcLXAoyNf {
+        z-index: 3;
+        position: relative;
+        grid-area: 10 / 4 / 13 / 6;
+      }
+
+      #abozNZ9FbdZcuH9O {
+        z-index: 1;
+        position: relative;
+        grid-area: 5 / 7 / 8 / 9;
+      }
+
+      #T8r8S2Xyya5pdE65 {
+        font-size: max(12px, calc((93.75rem * 16.4960264 / 960) - 0.5px));
+      }
+
+      #mXKlJ34WpQ4pHXrY {
+        font-size: max(12px, calc((93.75rem * 16.4960264 / 960) - 0.5px));
+      }
+
+      #ISvaU8FE87M5lc6L {
+        transform: translateX(calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.02));
+        margin-top: calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.05);
+      }
+
+      #dbkgYAl7HB1qvZ0q {
+        z-index: 4;
+        position: relative;
+        grid-area: 12 / 8 / 15 / 10;
+      }
+
+      #zwQ6eKjLF4oXrNNB {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 11 / 9 / 13;
+      }
+
+      #VSKJP5H70fpUq7fL {
+        font-size: max(12px, calc((93.75rem * 16.4960264 / 960) - 0.5px));
+      }
+
+      #myyAEz8VXQJNyoFa {
+        font-size: max(12px, calc((93.75rem * 16.4960264 / 960) - 0.5px));
+      }
+
+      #OSrV9JtFsGPUh43l {
+        transform: translateX(calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.02));
+        margin-top: calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.75rem * 16.4960264 / 960)) * -0.05);
+      }
+
+      #OExwT29Xe4SRIZpq {
+        z-index: 5;
+        position: relative;
+        grid-area: 11 / 12 / 14 / 14;
+      }
+
+      #XxdNVmh8w5yjvh9C {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02777778) calc(min(100vw, 1366px) * 0.03593934) 0 calc(min(100vw, 1366px) * 0.27233673) 0 calc(min(100vw, 1366px) * 0.02777778) 0 calc(min(100vw, 1366px) * 0.27233673) 0 calc(min(100vw, 1366px) * 0.02777778) 0 calc(min(100vw, 1366px) * 0.27233673) 0 calc(min(100vw, 1366px) * 0.03593934) calc(min(100vw, 1366px) * 0.02777778);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.0657749), max-content) minmax(calc(min(100vw, 1366px) * 0.03858376), max-content) minmax(calc(min(100vw, 1366px) * 0.08324215), max-content) 0 0 minmax(calc(min(100vw, 1366px) * 0.35365885), max-content) 0 0 minmax(calc(min(100vw, 1366px) * 0.01967462), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.00054253), max-content) minmax(calc(min(100vw, 1366px) * 0.03887243), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.00054253), max-content) minmax(calc(min(100vw, 1366px) * 0.0657749), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #RUyiq5cBqkEn5va1 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 16.59272991vh;
+      }
+
+      #Lh2HlpXN0KxjhZYc {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 11;
+      }
+
+      #eqN0GkNsRBjWFJV3 {
+        font-size: max(12px, calc((93.75rem * 61.013216 / 960) - 0.5px));
+      }
+
+      #AK9GC5mkEuoheRO7 {
+        font-size: max(12px, calc((93.75rem * 61.013216 / 960) - 0.5px));
+      }
+
+      #syPFJJGFdDb1dhML {
+        transform: translateX(calc(max(12px, calc(93.75rem * 61.013216 / 960)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.75rem * 61.013216 / 960)) * 0.1);
+      }
+
+      #h4AYPgwyaEkeS9zA {
+        z-index: 2;
+        position: relative;
+        grid-area: 4 / 3 / 5 / 9;
+      }
+
+      #K4Z8X32YY0LBwEnh {
+        font-size: max(12px, calc((93.75rem * 21.12 / 960) - 0.5px));
+      }
+
+      #S5mMrT2K1PViqMNe {
+        font-size: max(12px, calc((93.75rem * 21.12 / 960) - 0.5px));
+      }
+
+      #SNFfLMTlNndLwLsp {
+        transform: translateX(calc(max(12px, calc(93.75rem * 21.12 / 960)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.75rem * 21.12 / 960)) * -0.05);
+      }
+
+      #je5AKrdsKSj1UYrh {
+        z-index: 3;
+        position: relative;
+        grid-area: 6 / 4 / 7 / 10;
+      }
+
+      #ClR7RWjZcpQgMWUk {
+        z-index: 4;
+        position: relative;
+        grid-area: 8 / 5 / 11 / 8;
+      }
+
+      #wiCLebc9fzdzCINz {
+        font-size: max(12px, calc((93.75rem * 16.4959868 / 960) - 0.5px));
+      }
+
+      #YlnDMcwlhaerv6XG {
+        transform: translateX(calc(max(12px, calc(93.75rem * 16.4959868 / 960)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.75rem * 16.4959868 / 960)) * 0.05);
+      }
+
+      #qL3JuTxep8GJUtUl {
+        z-index: 5;
+        position: relative;
+        grid-area: 9 / 6 / 10 / 7;
+      }
+
+      #TSDTctBdUaehiwkQ {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.20355903) calc(min(100vw, 1366px) * 0.11191391) 0 calc(min(100vw, 1366px) * 0.1026631) calc(min(100vw, 1366px) * 0.00838366) calc(min(100vw, 1366px) * 0.1469606) calc(min(100vw, 1366px) * 0.00838366) calc(min(100vw, 1366px) * 0.1026631) 0 calc(min(100vw, 1366px) * 0.11191391) calc(min(100vw, 1366px) * 0.20355903);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.02777778), max-content) minmax(calc(min(100vw, 1366px) * 0.66666667), max-content) minmax(calc(min(100vw, 1366px) * 0.02777778), max-content) minmax(calc(min(100vw, 1366px) * 0.1319865), max-content) minmax(calc(min(100vw, 1366px) * 0.00954861), max-content) minmax(calc(min(100vw, 1366px) * 0.05157828), max-content) minmax(calc(min(100vw, 1366px) * 0.02864583), max-content) minmax(calc(min(100vw, 1366px) * 0.01146447), max-content) minmax(calc(min(100vw, 1366px) * 0.01898148), max-content) minmax(calc(min(100vw, 1366px) * 0.00900656), max-content) minmax(calc(min(100vw, 1366px) * 0.02777778), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #vvf1cS0AcOU3Db1u {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 25.16814459vh;
+      }
+
+      #sgr8C2lNAXha3gnX {
+        font-size: max(12px, calc((93.75rem * 61.013216 / 960) - 0.5px));
+      }
+
+      #FvEfeMOF9QxtcS8l {
+        font-size: max(12px, calc((93.75rem * 61.013216 / 960) - 0.5px));
+      }
+
+      #AjSkTL3E7v1IGQf7 {
+        transform: translateX(calc(max(12px, calc(93.75rem * 61.013216 / 960)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.75rem * 61.013216 / 960)) * 0.1);
+      }
+
+      #K1inQHZgD16k4w0O {
+        z-index: 2;
+        position: relative;
+        grid-area: 2 / 3 / 3 / 9;
+      }
+
+      #wocmt8dkG7dqadkS {
+        font-size: max(12px, calc((93.75rem * 21.12 / 960) - 0.5px));
+      }
+
+      #uVMpvAeJVt4CrzXw {
+        font-size: max(12px, calc((93.75rem * 21.12 / 960) - 0.5px));
+      }
+
+      #Z2RNe9PQxI5ny8Gu {
+        transform: translateX(calc(max(12px, calc(93.75rem * 21.12 / 960)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.75rem * 21.12 / 960)) * -0.05);
+      }
+
+      #oU76h8KDNMNVcFSj {
+        z-index: 3;
+        position: relative;
+        grid-area: 4 / 4 / 5 / 10;
+      }
+
+      #wn4spMaTRGUqx0bp {
+        z-index: 4;
+        position: relative;
+        grid-area: 6 / 5 / 9 / 8;
+      }
+
+      #LFPLlpSdDy53q5oB {
+        font-size: max(12px, calc((93.75rem * 16.4959868 / 960) - 0.5px));
+      }
+
+      #kHd5R303WUdfmOHm {
+        transform: translateX(calc(max(12px, calc(93.75rem * 16.4959868 / 960)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(93.75rem * 16.4959868 / 960)) * 0.05);
+      }
+
+      #hQHCecQRWZzVQP2M {
+        z-index: 5;
+        position: relative;
+        grid-area: 7 / 6 / 8 / 7;
+      }
+
+      #WflyP0eGt00dSEjM {
+        z-index: 0;
+        position: relative;
+        grid-area: 10 / 2 / 11 / 11;
+      }
+
+      #tlTYc5Q2UldM0bss {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.20355903) calc(min(100vw, 1366px) * 0.11191391) 0 calc(min(100vw, 1366px) * 0.1026631) calc(min(100vw, 1366px) * 0.00838366) calc(min(100vw, 1366px) * 0.1469606) calc(min(100vw, 1366px) * 0.00838366) calc(min(100vw, 1366px) * 0.1026631) 0 calc(min(100vw, 1366px) * 0.11191391) calc(min(100vw, 1366px) * 0.20355903);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.02777778), max-content) minmax(calc(min(100vw, 1366px) * 0.13240573), max-content) minmax(calc(min(100vw, 1366px) * 0.00954861), max-content) minmax(calc(min(100vw, 1366px) * 0.05207149), max-content) minmax(calc(min(100vw, 1366px) * 0.02864583), max-content) minmax(calc(min(100vw, 1366px) * 0.01123636), max-content) minmax(calc(min(100vw, 1366px) * 0.0194377), max-content) minmax(calc(min(100vw, 1366px) * 0.00877845), max-content) minmax(calc(min(100vw, 1366px) * 0.02777778), max-content) minmax(calc(min(100vw, 1366px) * 0.66666667), max-content) minmax(calc(min(100vw, 1366px) * 0.02777778), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #HPjkdas1w87N2Gi2 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 25.19085451vh;
+      }
+
+      #uzgERPxKs7ngQ9cY {
+        font-size: max(0px, calc((93.75rem * 27.720099 / 960) - 0.5px));
+      }
+
+      #P8wcVvNQ2j6ZTiRe {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(93.75rem * 27.720099 / 960)) * 0.05);
+        margin-bottom: calc(max(0px, calc(93.75rem * 27.720099 / 960)) * 0.05);
+      }
+
+      #crxQTO2qJdqHqMgr {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 8;
+      }
+
+      #kVI5EDtgj5O2xRf3 {
+        font-size: max(12px, calc((93.75rem * 28.160088 / 960) - 0.5px));
+      }
+
+      #cROS9TKsVpOXCYvr {
+        font-size: max(12px, calc((93.75rem * 28.160088 / 960) - 0.5px));
+      }
+
+      #sAu0vFjhyiVr6pKK {
+        font-size: max(12px, calc((93.75rem * 28.160088 / 960) - 0.5px));
+      }
+
+      #FSzYqRWVkO77J1Va {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(93.75rem * 28.160088 / 960)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.75rem * 28.160088 / 960)) * -0.05);
+      }
+
+      #pvKPKE0GYMrJBJw6 {
+        z-index: 1;
+        position: relative;
+        grid-area: 4 / 3 / 7 / 5;
+      }
+
+      #EPWLLFVYJLL1QP90 {
+        font-size: max(12px, calc((93.75rem * 28.160088 / 960) - 0.5px));
+      }
+
+      #FT1JkryboIFjbgmK {
+        font-size: max(12px, calc((93.75rem * 28.160088 / 960) - 0.5px));
+      }
+
+      #sbdse8BA534ei1Bw {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(93.75rem * 28.160088 / 960)) * -0.05);
+        margin-bottom: calc(max(12px, calc(93.75rem * 28.160088 / 960)) * -0.05);
+      }
+
+      #wzJLzdNqQQNTlMIn {
+        z-index: 2;
+        position: relative;
+        grid-area: 5 / 6 / 6 / 7;
+      }
+
+      #H46nv4RNLMIDvKNb {
+        font-size: max(12px, calc((93.75rem * 18.480132 / 960) - 0.5px));
+      }
+
+      #wKClm4T5bUKdxmqb {
+        font-size: max(12px, calc((93.75rem * 18.480132 / 960) - 0.5px));
+      }
+
+      #gntYOG5LyxbRwhpe {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(93.75rem * 18.480132 / 960)) * 0.05);
+        margin-bottom: calc(max(12px, calc(93.75rem * 18.480132 / 960)) * -0.05);
+      }
+
+      #RbX1RWeeQqSOZDmk {
+        z-index: 3;
+        position: relative;
+        grid-area: 8 / 4 / 9 / 9;
+      }
+
+      #If62GdIySoOzONQP {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.02777778) 0 0 calc(min(100vw, 1366px) * 0.20701707) calc(min(100vw, 1366px) * 0.08233479) calc(min(100vw, 1366px) * 0.41014205) calc(min(100vw, 1366px) * 0.24495052) 0 calc(min(100vw, 1366px) * 0.02777778);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.09759044), max-content) minmax(calc(min(100vw, 1366px) * 0.02673621), max-content) minmax(calc(min(100vw, 1366px) * 0.19653172), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.06942865), max-content) minmax(calc(min(100vw, 1366px) * 0.03432765), max-content) minmax(calc(min(100vw, 1366px) * 0.10097686), max-content) minmax(calc(min(100vw, 1366px) * 0.04004628), max-content) minmax(calc(min(100vw, 1366px) * 0.09759044), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #SetClIPTCxBG8buP {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 16.50715102vh;
+      }
+    }
+
+    @media screen and (min-width: 1024.05px) and (max-width: 1366px) {
+      #XwxtcW4CZ3xHNT8b {
+        font-size: max(0px, calc((100rem * 27.720099 / 1366) - 0.5px));
+      }
+
+      #mzA2Cjkna7XqY6vs {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(100rem * 27.720099 / 1366)) * 0.05);
+        margin-bottom: calc(max(0px, calc(100rem * 27.720099 / 1366)) * 0.05);
+      }
+
+      #mSlUos0H1DELSfLX {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 3;
+      }
+
+      #N92xmWIY3dOs316m {
+        font-size: max(12px, calc((100rem * 98.999703 / 1366) - 0.5px));
+      }
+
+      #jQih7tJkGKHxi2Oc {
+        transform: translateX(calc(max(12px, calc(100rem * 98.999703 / 1366)) * -0.02));
+        margin-top: calc(max(12px, calc(100rem * 98.999703 / 1366)) * -0.1);
+        margin-bottom: calc(max(12px, calc(100rem * 98.999703 / 1366)) * 0.1);
+      }
+
+      #fS1NlHtZ36uEIig2 {
+        z-index: 4;
+        position: relative;
+        grid-area: 4 / 4 / 5 / 9;
+      }
+
+      #xZ3z9Gaj6JLgZb90 {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 5 / 9 / 8;
+      }
+
+      #cbc8TDCq5MXdRf6X {
+        font-size: max(12px, calc((100rem * 18.479934 / 1366) - 0.5px));
+      }
+
+      #kn8OxBryPkdRBqmT {
+        transform: translateX(calc(max(12px, calc(100rem * 18.479934 / 1366)) * 0.025));
+        margin-top: calc(max(12px, calc(100rem * 18.479934 / 1366)) * -0.05);
+        margin-bottom: calc(max(12px, calc(100rem * 18.479934 / 1366)) * 0.05);
+      }
+
+      #epsSK4Rgm0PDLs5e {
+        z-index: 3;
+        position: relative;
+        grid-area: 7 / 6 / 8 / 7;
+      }
+
+      #dlHvqjykkYuKhfVz {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.04758419) calc(min(100vw, 1366px) * 0.11151171) calc(min(100vw, 1366px) * 0.05541092) calc(min(100vw, 1366px) * 0.21645418) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.12393749) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.21645418) calc(min(100vw, 1366px) * 0.21450682);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.03352897), max-content) minmax(calc(min(100vw, 1366px) * 0.02401172), max-content) minmax(calc(min(100vw, 1366px) * 0.22370515), max-content) minmax(calc(min(100vw, 1366px) * 0.15959), max-content) minmax(calc(min(100vw, 1366px) * 0.03011891), max-content) minmax(calc(min(100vw, 1366px) * 0.00947605), max-content) minmax(calc(min(100vw, 1366px) * 0.01639255), max-content) minmax(calc(min(100vw, 1366px) * 0.0074032), max-content) minmax(calc(min(100vw, 1366px) * 0.05799893), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #jcCA8xslBcqKfQSd {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #gefZMSWJNxsotxpk {
+        font-size: max(12px, calc((100rem * 36.959967 / 1366) - 0.5px));
+      }
+
+      #BYIWMfSsnB5cN7TA {
+        transform: translateX(calc(max(12px, calc(100rem * 36.959967 / 1366)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(100rem * 36.959967 / 1366)) * -0.05);
+      }
+
+      #YaefpRSGhKYs11Xi {
+        z-index: 6;
+        position: relative;
+        grid-area: 2 / 4 / 3 / 13;
+      }
+
+      #tdSBCR4pwRS8c8en {
+        z-index: 0;
+        position: relative;
+        grid-area: 4 / 2 / 7 / 6;
+      }
+
+      #P83Msyyg0uyko9FF {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #cNCKYniwilG1jWr2 {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #o0jGQsK38v6sTJbd {
+        transform: translateX(calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.02));
+        margin-top: calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.05);
+        margin-bottom: calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.05);
+      }
+
+      #WyVdomXkcLXAoyNf {
+        z-index: 3;
+        position: relative;
+        grid-area: 10 / 3 / 13 / 5;
+      }
+
+      #abozNZ9FbdZcuH9O {
+        z-index: 1;
+        position: relative;
+        grid-area: 5 / 7 / 8 / 9;
+      }
+
+      #T8r8S2Xyya5pdE65 {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #mXKlJ34WpQ4pHXrY {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #ISvaU8FE87M5lc6L {
+        transform: translateX(calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.02));
+        margin-top: calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.05);
+        margin-bottom: calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.05);
+      }
+
+      #dbkgYAl7HB1qvZ0q {
+        z-index: 4;
+        position: relative;
+        grid-area: 12 / 8 / 15 / 10;
+      }
+
+      #zwQ6eKjLF4oXrNNB {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 11 / 9 / 15;
+      }
+
+      #VSKJP5H70fpUq7fL {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #myyAEz8VXQJNyoFa {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #OSrV9JtFsGPUh43l {
+        transform: translateX(calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.02));
+        margin-top: calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.05);
+        margin-bottom: calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.05);
+      }
+
+      #OExwT29Xe4SRIZpq {
+        z-index: 5;
+        position: relative;
+        grid-area: 11 / 12 / 14 / 14;
+      }
+
+      #XxdNVmh8w5yjvh9C {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.05075644) 0 calc(min(100vw, 1366px) * 0.21511117) calc(min(100vw, 1366px) * 0.01419758) calc(min(100vw, 1366px) * 0.00036322) calc(min(100vw, 1366px) * 0.1047356) calc(min(100vw, 1366px) * 0.00036322) calc(min(100vw, 1366px) * 0.22930875) 0 calc(min(100vw, 1366px) * 0.1047356) 0 calc(min(100vw, 1366px) * 0.0145608) calc(min(100vw, 1366px) * 0.21474795) calc(min(100vw, 1366px) * 0.00036322) calc(min(100vw, 1366px) * 0.05075644);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.05471842), max-content) minmax(calc(min(100vw, 1366px) * 0.03253916), max-content) minmax(calc(min(100vw, 1366px) * 0.07020128), max-content) 0 0 minmax(calc(min(100vw, 1366px) * 0.29825402), max-content) 0 0 minmax(calc(min(100vw, 1366px) * 0.01659236), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.00045754), max-content) minmax(calc(min(100vw, 1366px) * 0.03278261), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.00045754), max-content) minmax(calc(min(100vw, 1366px) * 0.05622255), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #RUyiq5cBqkEn5va1 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #Lh2HlpXN0KxjhZYc {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 11 / 3;
+      }
+
+      #eqN0GkNsRBjWFJV3 {
+        font-size: max(12px, calc((100rem * 68.639868 / 1366) - 0.5px));
+      }
+
+      #AK9GC5mkEuoheRO7 {
+        font-size: max(12px, calc((100rem * 68.639868 / 1366) - 0.5px));
+      }
+
+      #syPFJJGFdDb1dhML {
+        transform: translateX(calc(max(12px, calc(100rem * 68.639868 / 1366)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(100rem * 68.639868 / 1366)) * 0.1);
+      }
+
+      #h4AYPgwyaEkeS9zA {
+        z-index: 2;
+        position: relative;
+        grid-area: 3 / 4 / 4 / 10;
+      }
+
+      #K4Z8X32YY0LBwEnh {
+        font-size: max(12px, calc((100rem * 23.76 / 1366) - 0.5px));
+      }
+
+      #S5mMrT2K1PViqMNe {
+        font-size: max(12px, calc((100rem * 23.76 / 1366) - 0.5px));
+      }
+
+      #SNFfLMTlNndLwLsp {
+        transform: translateX(calc(max(12px, calc(100rem * 23.76 / 1366)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(100rem * 23.76 / 1366)) * -0.05);
+      }
+
+      #je5AKrdsKSj1UYrh {
+        z-index: 3;
+        position: relative;
+        grid-area: 5 / 5 / 6 / 11;
+      }
+
+      #ClR7RWjZcpQgMWUk {
+        z-index: 4;
+        position: relative;
+        grid-area: 7 / 6 / 10 / 9;
+      }
+
+      #wiCLebc9fzdzCINz {
+        font-size: max(12px, calc((100rem * 18.479934 / 1366) - 0.5px));
+      }
+
+      #YlnDMcwlhaerv6XG {
+        transform: translateX(calc(max(12px, calc(100rem * 18.479934 / 1366)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(100rem * 18.479934 / 1366)) * 0.05);
+      }
+
+      #qL3JuTxep8GJUtUl {
+        z-index: 5;
+        position: relative;
+        grid-area: 8 / 7 / 9 / 8;
+      }
+
+      #TSDTctBdUaehiwkQ {
+        grid-template-columns: 0 calc(min(100vw, 1366px) * 0.5) calc(min(100vw, 1366px) * 0.09438128) 0 calc(min(100vw, 1366px) * 0.08657972) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.12393749) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.08657972) 0 calc(min(100vw, 1366px) * 0.09438128);
+        grid-template-rows: 0 minmax(calc(min(100vw, 1366px) * 0.1905234), max-content) minmax(calc(min(100vw, 1366px) * 0.11130926), max-content) minmax(calc(min(100vw, 1366px) * 0.00805271), max-content) minmax(calc(min(100vw, 1366px) * 0.04349794), max-content) minmax(calc(min(100vw, 1366px) * 0.02415813), max-content) minmax(calc(min(100vw, 1366px) * 0.00966842), max-content) minmax(calc(min(100vw, 1366px) * 0.0160078), max-content) minmax(calc(min(100vw, 1366px) * 0.00759557), max-content) minmax(calc(min(100vw, 1366px) * 0.15141224), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #vvf1cS0AcOU3Db1u {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #sgr8C2lNAXha3gnX {
+        font-size: max(12px, calc((100rem * 68.639868 / 1366) - 0.5px));
+      }
+
+      #FvEfeMOF9QxtcS8l {
+        font-size: max(12px, calc((100rem * 68.639868 / 1366) - 0.5px));
+      }
+
+      #AjSkTL3E7v1IGQf7 {
+        transform: translateX(calc(max(12px, calc(100rem * 68.639868 / 1366)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(100rem * 68.639868 / 1366)) * 0.1);
+      }
+
+      #K1inQHZgD16k4w0O {
+        z-index: 2;
+        position: relative;
+        grid-area: 3 / 2 / 4 / 8;
+      }
+
+      #wocmt8dkG7dqadkS {
+        font-size: max(12px, calc((100rem * 23.76 / 1366) - 0.5px));
+      }
+
+      #uVMpvAeJVt4CrzXw {
+        font-size: max(12px, calc((100rem * 23.76 / 1366) - 0.5px));
+      }
+
+      #Z2RNe9PQxI5ny8Gu {
+        transform: translateX(calc(max(12px, calc(100rem * 23.76 / 1366)) * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(100rem * 23.76 / 1366)) * -0.05);
+      }
+
+      #oU76h8KDNMNVcFSj {
+        z-index: 3;
+        position: relative;
+        grid-area: 5 / 3 / 6 / 9;
+      }
+
+      #wn4spMaTRGUqx0bp {
+        z-index: 4;
+        position: relative;
+        grid-area: 7 / 4 / 10 / 7;
+      }
+
+      #LFPLlpSdDy53q5oB {
+        font-size: max(12px, calc((100rem * 18.479934 / 1366) - 0.5px));
+      }
+
+      #kHd5R303WUdfmOHm {
+        transform: translateX(calc(max(12px, calc(100rem * 18.479934 / 1366)) * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(max(12px, calc(100rem * 18.479934 / 1366)) * 0.05);
+      }
+
+      #hQHCecQRWZzVQP2M {
+        z-index: 5;
+        position: relative;
+        grid-area: 8 / 5 / 9 / 6;
+      }
+
+      #WflyP0eGt00dSEjM {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 10 / 11 / 11;
+      }
+
+      #tlTYc5Q2UldM0bss {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.09438128) 0 calc(min(100vw, 1366px) * 0.08657972) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.12393749) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.08657972) 0 calc(min(100vw, 1366px) * 0.09438128) calc(min(100vw, 1366px) * 0.5);
+        grid-template-rows: 0 minmax(calc(min(100vw, 1366px) * 0.17058307), max-content) minmax(calc(min(100vw, 1366px) * 0.11166281), max-content) minmax(calc(min(100vw, 1366px) * 0.00805271), max-content) minmax(calc(min(100vw, 1366px) * 0.04391388), max-content) minmax(calc(min(100vw, 1366px) * 0.02415813), max-content) minmax(calc(min(100vw, 1366px) * 0.00947605), max-content) minmax(calc(min(100vw, 1366px) * 0.01639255), max-content) minmax(calc(min(100vw, 1366px) * 0.0074032), max-content) minmax(calc(min(100vw, 1366px) * 0.17058307), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #HPjkdas1w87N2Gi2 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #uzgERPxKs7ngQ9cY {
+        font-size: max(0px, calc((100rem * 27.720099 / 1366) - 0.5px));
+      }
+
+      #P8wcVvNQ2j6ZTiRe {
+        transform: translateX(0);
+        margin-top: calc(max(0px, calc(100rem * 27.720099 / 1366)) * 0.05);
+        margin-bottom: calc(max(0px, calc(100rem * 27.720099 / 1366)) * 0.05);
+      }
+
+      #crxQTO2qJdqHqMgr {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 5;
+      }
+
+      #kVI5EDtgj5O2xRf3 {
+        font-size: max(12px, calc((100rem * 31.680099 / 1366) - 0.5px));
+      }
+
+      #cROS9TKsVpOXCYvr {
+        font-size: max(12px, calc((100rem * 31.680099 / 1366) - 0.5px));
+      }
+
+      #sAu0vFjhyiVr6pKK {
+        font-size: max(12px, calc((100rem * 31.680099 / 1366) - 0.5px));
+      }
+
+      #FSzYqRWVkO77J1Va {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(100rem * 31.680099 / 1366)) * -0.05);
+        margin-bottom: calc(max(12px, calc(100rem * 31.680099 / 1366)) * -0.05);
+      }
+
+      #pvKPKE0GYMrJBJw6 {
+        z-index: 1;
+        position: relative;
+        grid-area: 4 / 3 / 7 / 6;
+      }
+
+      #EPWLLFVYJLL1QP90 {
+        font-size: max(12px, calc((100rem * 31.680099 / 1366) - 0.5px));
+      }
+
+      #FT1JkryboIFjbgmK {
+        font-size: max(12px, calc((100rem * 31.680099 / 1366) - 0.5px));
+      }
+
+      #sbdse8BA534ei1Bw {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(100rem * 31.680099 / 1366)) * -0.05);
+        margin-bottom: calc(max(12px, calc(100rem * 31.680099 / 1366)) * -0.05);
+      }
+
+      #wzJLzdNqQQNTlMIn {
+        z-index: 2;
+        position: relative;
+        grid-area: 5 / 8 / 6 / 9;
+      }
+
+      #H46nv4RNLMIDvKNb {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #wKClm4T5bUKdxmqb {
+        font-size: max(12px, calc((100rem * 18.480132 / 1366) - 0.5px));
+      }
+
+      #gntYOG5LyxbRwhpe {
+        transform: translateX(0);
+        margin-top: calc(max(12px, calc(100rem * 18.480132 / 1366)) * 0.05);
+        margin-bottom: calc(max(12px, calc(100rem * 18.480132 / 1366)) * -0.05);
+      }
+
+      #RbX1RWeeQqSOZDmk {
+        z-index: 3;
+        position: relative;
+        grid-area: 8 / 4 / 9 / 7;
+      }
+
+      #If62GdIySoOzONQP {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.04758419) 0 calc(min(100vw, 1366px) * 0.00164118) calc(min(100vw, 1366px) * 0.11599866) calc(min(100vw, 1366px) * 0.05694557) 0 calc(min(100vw, 1366px) * 0.06943608) calc(min(100vw, 1366px) * 0.34588847) calc(min(100vw, 1366px) * 0.36250586);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.04758419), max-content) minmax(calc(min(100vw, 1366px) * 0.02459404), max-content) minmax(calc(min(100vw, 1366px) * 0.16574271), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.05855183), max-content) minmax(calc(min(100vw, 1366px) * 0.02894982), max-content) minmax(calc(min(100vw, 1366px) * 0.08515765), max-content) minmax(calc(min(100vw, 1366px) * 0.03377256), max-content) minmax(calc(min(100vw, 1366px) * 0.11787267), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #SetClIPTCxBG8buP {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+    }
+
+    @media screen and (min-width: 1366.05px) {
+      #XwxtcW4CZ3xHNT8b {
+        font-size: 27.220099px;
+      }
+
+      #mzA2Cjkna7XqY6vs {
+        transform: translateX(0);
+        margin-top: calc(27.720099px * 0.05);
+        margin-bottom: calc(27.720099px * 0.05);
+      }
+
+      #mSlUos0H1DELSfLX {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 3;
+      }
+
+      #N92xmWIY3dOs316m {
+        font-size: 98.499703px;
+      }
+
+      #jQih7tJkGKHxi2Oc {
+        transform: translateX(calc(98.999703px * -0.02));
+        margin-top: calc(98.999703px * -0.1);
+        margin-bottom: calc(98.999703px * 0.1);
+      }
+
+      #fS1NlHtZ36uEIig2 {
+        z-index: 4;
+        position: relative;
+        grid-area: 4 / 4 / 5 / 9;
+      }
+
+      #xZ3z9Gaj6JLgZb90 {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 5 / 9 / 8;
+      }
+
+      #cbc8TDCq5MXdRf6X {
+        font-size: 17.979934px;
+      }
+
+      #kn8OxBryPkdRBqmT {
+        transform: translateX(calc(18.479934px * 0.025));
+        margin-top: calc(18.479934px * -0.05);
+        margin-bottom: calc(18.479934px * 0.05);
+      }
+
+      #epsSK4Rgm0PDLs5e {
+        z-index: 3;
+        position: relative;
+        grid-area: 7 / 6 / 8 / 7;
+      }
+
+      #dlHvqjykkYuKhfVz {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.04758419) calc(min(100vw, 1366px) * 0.11151171) calc(min(100vw, 1366px) * 0.05541092) calc(min(100vw, 1366px) * 0.21645418) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.12393749) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.21645418) calc(min(100vw, 1366px) * 0.21450682);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.03352897), max-content) minmax(calc(min(100vw, 1366px) * 0.02401172), max-content) minmax(calc(min(100vw, 1366px) * 0.22370515), max-content) minmax(calc(min(100vw, 1366px) * 0.15959), max-content) minmax(calc(min(100vw, 1366px) * 0.03011891), max-content) minmax(calc(min(100vw, 1366px) * 0.00947605), max-content) minmax(calc(min(100vw, 1366px) * 0.01639255), max-content) minmax(calc(min(100vw, 1366px) * 0.0074032), max-content) minmax(calc(min(100vw, 1366px) * 0.05799893), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #jcCA8xslBcqKfQSd {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #gefZMSWJNxsotxpk {
+        font-size: 36.459967px;
+      }
+
+      #BYIWMfSsnB5cN7TA {
+        transform: translateX(calc(36.959967px * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(36.959967px * -0.05);
+      }
+
+      #YaefpRSGhKYs11Xi {
+        z-index: 6;
+        position: relative;
+        grid-area: 2 / 4 / 3 / 13;
+      }
+
+      #tdSBCR4pwRS8c8en {
+        z-index: 0;
+        position: relative;
+        grid-area: 4 / 2 / 7 / 6;
+      }
+
+      #P83Msyyg0uyko9FF {
+        font-size: 17.980132px;
+      }
+
+      #cNCKYniwilG1jWr2 {
+        font-size: 17.980132px;
+      }
+
+      #o0jGQsK38v6sTJbd {
+        transform: translateX(calc(18.480132px * -0.02));
+        margin-top: calc(18.480132px * -0.05);
+        margin-bottom: calc(18.480132px * -0.05);
+      }
+
+      #WyVdomXkcLXAoyNf {
+        z-index: 3;
+        position: relative;
+        grid-area: 10 / 3 / 13 / 5;
+      }
+
+      #abozNZ9FbdZcuH9O {
+        z-index: 1;
+        position: relative;
+        grid-area: 5 / 7 / 8 / 9;
+      }
+
+      #T8r8S2Xyya5pdE65 {
+        font-size: 17.980132px;
+      }
+
+      #mXKlJ34WpQ4pHXrY {
+        font-size: 17.980132px;
+      }
+
+      #ISvaU8FE87M5lc6L {
+        transform: translateX(calc(18.480132px * -0.02));
+        margin-top: calc(18.480132px * -0.05);
+        margin-bottom: calc(18.480132px * -0.05);
+      }
+
+      #dbkgYAl7HB1qvZ0q {
+        z-index: 4;
+        position: relative;
+        grid-area: 12 / 8 / 15 / 10;
+      }
+
+      #zwQ6eKjLF4oXrNNB {
+        z-index: 2;
+        position: relative;
+        grid-area: 6 / 11 / 9 / 15;
+      }
+
+      #VSKJP5H70fpUq7fL {
+        font-size: 17.980132px;
+      }
+
+      #myyAEz8VXQJNyoFa {
+        font-size: 17.980132px;
+      }
+
+      #OSrV9JtFsGPUh43l {
+        transform: translateX(calc(18.480132px * -0.02));
+        margin-top: calc(18.480132px * -0.05);
+        margin-bottom: calc(18.480132px * -0.05);
+      }
+
+      #OExwT29Xe4SRIZpq {
+        z-index: 5;
+        position: relative;
+        grid-area: 11 / 12 / 14 / 14;
+      }
+
+      #XxdNVmh8w5yjvh9C {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.05075644) 0 calc(min(100vw, 1366px) * 0.21511117) calc(min(100vw, 1366px) * 0.01419758) calc(min(100vw, 1366px) * 0.00036322) calc(min(100vw, 1366px) * 0.1047356) calc(min(100vw, 1366px) * 0.00036322) calc(min(100vw, 1366px) * 0.22930875) 0 calc(min(100vw, 1366px) * 0.1047356) 0 calc(min(100vw, 1366px) * 0.0145608) calc(min(100vw, 1366px) * 0.21474795) calc(min(100vw, 1366px) * 0.00036322) calc(min(100vw, 1366px) * 0.05075644);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.05471842), max-content) minmax(calc(min(100vw, 1366px) * 0.03253916), max-content) minmax(calc(min(100vw, 1366px) * 0.07020128), max-content) 0 0 minmax(calc(min(100vw, 1366px) * 0.29825402), max-content) 0 0 minmax(calc(min(100vw, 1366px) * 0.01659236), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.00045754), max-content) minmax(calc(min(100vw, 1366px) * 0.03278261), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.00045754), max-content) minmax(calc(min(100vw, 1366px) * 0.05622255), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #RUyiq5cBqkEn5va1 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #Lh2HlpXN0KxjhZYc {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 11 / 3;
+      }
+
+      #eqN0GkNsRBjWFJV3 {
+        font-size: 68.139868px;
+      }
+
+      #AK9GC5mkEuoheRO7 {
+        font-size: 68.139868px;
+      }
+
+      #syPFJJGFdDb1dhML {
+        transform: translateX(calc(68.639868px * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(68.639868px * 0.1);
+      }
+
+      #h4AYPgwyaEkeS9zA {
+        z-index: 2;
+        position: relative;
+        grid-area: 3 / 4 / 4 / 10;
+      }
+
+      #K4Z8X32YY0LBwEnh {
+        font-size: 23.26px;
+      }
+
+      #S5mMrT2K1PViqMNe {
+        font-size: 23.26px;
+      }
+
+      #SNFfLMTlNndLwLsp {
+        transform: translateX(calc(23.76px * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(23.76px * -0.05);
+      }
+
+      #je5AKrdsKSj1UYrh {
+        z-index: 3;
+        position: relative;
+        grid-area: 5 / 5 / 6 / 11;
+      }
+
+      #ClR7RWjZcpQgMWUk {
+        z-index: 4;
+        position: relative;
+        grid-area: 7 / 6 / 10 / 9;
+      }
+
+      #wiCLebc9fzdzCINz {
+        font-size: 17.979934px;
+      }
+
+      #YlnDMcwlhaerv6XG {
+        transform: translateX(calc(18.479934px * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(18.479934px * 0.05);
+      }
+
+      #qL3JuTxep8GJUtUl {
+        z-index: 5;
+        position: relative;
+        grid-area: 8 / 7 / 9 / 8;
+      }
+
+      #TSDTctBdUaehiwkQ {
+        grid-template-columns: 0 calc(min(100vw, 1366px) * 0.5) calc(min(100vw, 1366px) * 0.09438128) 0 calc(min(100vw, 1366px) * 0.08657972) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.12393749) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.08657972) 0 calc(min(100vw, 1366px) * 0.09438128);
+        grid-template-rows: 0 minmax(calc(min(100vw, 1366px) * 0.1905234), max-content) minmax(calc(min(100vw, 1366px) * 0.11130926), max-content) minmax(calc(min(100vw, 1366px) * 0.00805271), max-content) minmax(calc(min(100vw, 1366px) * 0.04349794), max-content) minmax(calc(min(100vw, 1366px) * 0.02415813), max-content) minmax(calc(min(100vw, 1366px) * 0.00966842), max-content) minmax(calc(min(100vw, 1366px) * 0.0160078), max-content) minmax(calc(min(100vw, 1366px) * 0.00759557), max-content) minmax(calc(min(100vw, 1366px) * 0.15141224), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #vvf1cS0AcOU3Db1u {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #sgr8C2lNAXha3gnX {
+        font-size: 68.139868px;
+      }
+
+      #FvEfeMOF9QxtcS8l {
+        font-size: 68.139868px;
+      }
+
+      #AjSkTL3E7v1IGQf7 {
+        transform: translateX(calc(68.639868px * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(68.639868px * 0.1);
+      }
+
+      #K1inQHZgD16k4w0O {
+        z-index: 2;
+        position: relative;
+        grid-area: 3 / 2 / 4 / 8;
+      }
+
+      #wocmt8dkG7dqadkS {
+        font-size: 23.26px;
+      }
+
+      #uVMpvAeJVt4CrzXw {
+        font-size: 23.26px;
+      }
+
+      #Z2RNe9PQxI5ny8Gu {
+        transform: translateX(calc(23.76px * -0.02));
+        margin-top: 0;
+        margin-bottom: calc(23.76px * -0.05);
+      }
+
+      #oU76h8KDNMNVcFSj {
+        z-index: 3;
+        position: relative;
+        grid-area: 5 / 3 / 6 / 9;
+      }
+
+      #wn4spMaTRGUqx0bp {
+        z-index: 4;
+        position: relative;
+        grid-area: 7 / 4 / 10 / 7;
+      }
+
+      #LFPLlpSdDy53q5oB {
+        font-size: 17.979934px;
+      }
+
+      #kHd5R303WUdfmOHm {
+        transform: translateX(calc(18.479934px * 0.025));
+        margin-top: 0;
+        margin-bottom: calc(18.479934px * 0.05);
+      }
+
+      #hQHCecQRWZzVQP2M {
+        z-index: 5;
+        position: relative;
+        grid-area: 8 / 5 / 9 / 6;
+      }
+
+      #WflyP0eGt00dSEjM {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 10 / 11 / 11;
+      }
+
+      #tlTYc5Q2UldM0bss {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.09438128) 0 calc(min(100vw, 1366px) * 0.08657972) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.12393749) calc(min(100vw, 1366px) * 0.00707026) calc(min(100vw, 1366px) * 0.08657972) 0 calc(min(100vw, 1366px) * 0.09438128) calc(min(100vw, 1366px) * 0.5);
+        grid-template-rows: 0 minmax(calc(min(100vw, 1366px) * 0.17058307), max-content) minmax(calc(min(100vw, 1366px) * 0.11166281), max-content) minmax(calc(min(100vw, 1366px) * 0.00805271), max-content) minmax(calc(min(100vw, 1366px) * 0.04391388), max-content) minmax(calc(min(100vw, 1366px) * 0.02415813), max-content) minmax(calc(min(100vw, 1366px) * 0.00947605), max-content) minmax(calc(min(100vw, 1366px) * 0.01639255), max-content) minmax(calc(min(100vw, 1366px) * 0.0074032), max-content) minmax(calc(min(100vw, 1366px) * 0.17058307), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #HPjkdas1w87N2Gi2 {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+
+      #uzgERPxKs7ngQ9cY {
+        font-size: 27.220099px;
+      }
+
+      #P8wcVvNQ2j6ZTiRe {
+        transform: translateX(0);
+        margin-top: calc(27.720099px * 0.05);
+        margin-bottom: calc(27.720099px * 0.05);
+      }
+
+      #crxQTO2qJdqHqMgr {
+        z-index: 0;
+        position: relative;
+        grid-area: 2 / 2 / 3 / 5;
+      }
+
+      #kVI5EDtgj5O2xRf3 {
+        font-size: 31.180099px;
+      }
+
+      #cROS9TKsVpOXCYvr {
+        font-size: 31.180099px;
+      }
+
+      #sAu0vFjhyiVr6pKK {
+        font-size: 31.180099px;
+      }
+
+      #FSzYqRWVkO77J1Va {
+        transform: translateX(0);
+        margin-top: calc(31.680099px * -0.05);
+        margin-bottom: calc(31.680099px * -0.05);
+      }
+
+      #pvKPKE0GYMrJBJw6 {
+        z-index: 1;
+        position: relative;
+        grid-area: 4 / 3 / 7 / 6;
+      }
+
+      #EPWLLFVYJLL1QP90 {
+        font-size: 31.180099px;
+      }
+
+      #FT1JkryboIFjbgmK {
+        font-size: 31.180099px;
+      }
+
+      #sbdse8BA534ei1Bw {
+        transform: translateX(0);
+        margin-top: calc(31.680099px * -0.05);
+        margin-bottom: calc(31.680099px * -0.05);
+      }
+
+      #wzJLzdNqQQNTlMIn {
+        z-index: 2;
+        position: relative;
+        grid-area: 5 / 8 / 6 / 9;
+      }
+
+      #H46nv4RNLMIDvKNb {
+        font-size: 17.980132px;
+      }
+
+      #wKClm4T5bUKdxmqb {
+        font-size: 17.980132px;
+      }
+
+      #gntYOG5LyxbRwhpe {
+        transform: translateX(0);
+        margin-top: calc(18.480132px * 0.05);
+        margin-bottom: calc(18.480132px * -0.05);
+      }
+
+      #RbX1RWeeQqSOZDmk {
+        z-index: 3;
+        position: relative;
+        grid-area: 8 / 4 / 9 / 7;
+      }
+
+      #If62GdIySoOzONQP {
+        grid-template-columns: calc(min(100vw, 1366px) * 0.04758419) 0 calc(min(100vw, 1366px) * 0.00164118) calc(min(100vw, 1366px) * 0.11599866) calc(min(100vw, 1366px) * 0.05694557) 0 calc(min(100vw, 1366px) * 0.06943608) calc(min(100vw, 1366px) * 0.34588847) calc(min(100vw, 1366px) * 0.36250586);
+        grid-template-rows: minmax(calc(min(100vw, 1366px) * 0.04758419), max-content) minmax(calc(min(100vw, 1366px) * 0.02459404), max-content) minmax(calc(min(100vw, 1366px) * 0.16574271), max-content) 0 minmax(calc(min(100vw, 1366px) * 0.05855183), max-content) minmax(calc(min(100vw, 1366px) * 0.02894982), max-content) minmax(calc(min(100vw, 1366px) * 0.08515765), max-content) minmax(calc(min(100vw, 1366px) * 0.03377256), max-content) minmax(calc(min(100vw, 1366px) * 0.11787267), max-content);
+        display: grid;
+        grid-column: 2;
+        position: relative;
+      }
+
+      #SetClIPTCxBG8buP {
+        grid-template-columns: auto min(100vw, 1366px) auto;
+        min-height: 20vh;
+      }
+    }
+
+    @keyframes anim-pulse {
+      0% {
+        background-color: rgba(226, 226, 226, 0.05);
+      }
+
+      50% {
+        background-color: rgba(226, 226, 226, 0.1);
+      }
+
+      100% {
+        background-color: rgba(226, 226, 226, 0.05);
+      }
+    }
+  </style>
+  <script>!function () { "use strict"; const e = "undefined" != typeof window ? window.navigator?.userAgent : void 0; const t = !(!e || (n = e, !n.match(/AppleWebKit\//) || n.match(/Chrome\//) || n.match(/Chromium\//))); var n; function o() { Array.from(document.querySelectorAll("svg")).forEach((e => { const t = e.style.display || "block"; e.style.display = "none", e.offsetHeight, e.style.display = t })) } function i() { Array.from(document.querySelectorAll("video")).forEach((e => { window.requestAnimationFrame((() => { e.style.position = "fixed", window.setTimeout((() => { e.style.position = "" })) })) })) } function r(e) { if (0 !== e.getBoundingClientRect().width) return; const t = Array.from(e.children).map((e => e)); t.forEach(((e, n) => { if (e.hasAttribute("data-foreign-object-container")) e.style.transformOrigin = "", e.style.transform = "", e.style.clipPath = ""; else { const o = document.createElement("div"); o.setAttribute("data-foreign-object-container", ""), e.insertAdjacentElement("beforebegin", o), e.remove(), o.append(e), t[n] = o } })); const n = e.closest("svg")?.getBoundingClientRect(), o = e.getScreenCTM(); if (!o || !n) return; const { a: i, b: r, c: a, d: c, e: s, f: d } = o, f = e.x?.baseVal.value ?? 0, l = e.y?.baseVal.value ?? 0; t.forEach((e => { if (!e.hasAttribute("data-foreign-object-container")) return; const { style: t } = e; t.transformOrigin = `${-f}px ${-l}px`, t.transform = `matrix(${i}, ${r}, ${a}, ${c}, ${s - n.left}, ${d - n.top})`; const o = (n.top - d) / i, u = (n.left - s) / i, m = o + n.height / i, p = u + n.width / i; t.clipPath = `polygon(${u}px ${o}px, ${p}px ${o}px, ${p}px ${m}px, ${u}px ${m}px)` })) } function a() { const e = document.querySelectorAll("foreignObject"); Array.from(e).forEach(r) } [function () { t && (window.addEventListener("resize", o), window.addEventListener("DOMContentLoaded", o)) }, function () { t && (window.addEventListener("resize", a), window.addEventListener("DOMContentLoaded", a)) }, function () { t && window.addEventListener("DOMContentLoaded", i) }].forEach((e => e())) }();</script>
+  <script>
+    window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
+  </script>
+  <script>
+    window.C_CAPTCHA_KEY = '6Ldk59waAAAAAMPqkICbJjfMivZLCGtTpa6Wn6zO';
+  </script>
+</head>
+
+<body>
+  <div id="root">
+    <section id="jcCA8xslBcqKfQSd" style="z-index:0;overflow:hidden;display:grid;position:relative;align-items:center;">
+      <div id="j1UjVHXf8CN0W63I"
+        style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;top:0%;left:0%;position:absolute;">
+        <div id="hWoGh5C5wa8QzRms"
+          style="background-repeat:no-repeat;background-size:cover;top:-9.28819444%;left:0%;width:100%;background-image:url(https://img.freepik.com/premium-photo/clothes-concept-women-wear-hanging-dried-tree-branch-shadow-shading-white-wall_34048-1552.jpg?w=2000);background-position:center;position:relative;opacity:1.0;height:118.57638889%;">
+        </div>
+      </div>
+      <div id="dlHvqjykkYuKhfVz">
+        <div id="mSlUos0H1DELSfLX" style="pointer-events:none;">
+          <div id="vJ1dk5McEdyZUuc6" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="mzA2Cjkna7XqY6vs"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+
+              <p id="XwxtcW4CZ3xHNT8b"
+                style="color:#ffffff;letter-spacing:0.05em;font-family:YAEqe1G4kwU-0;line-height:1.1em;"><span
+                  id="NoRgYmGjGw3x7rON" style="color:#ffffff;font-weight:700;">Unscript</span><br></p>
+            </div>
+          </div>
+        </div>
+        <div id="fS1NlHtZ36uEIig2" style="pointer-events:none;">
+          <div id="mVqJ2EAuHsNiEUsR" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="jQih7tJkGKHxi2Oc"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
+              <p id="N92xmWIY3dOs316m"
+                style="color:#ffffff;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1em;text-align:center;">
+                <span id="Y5Rw11dTbLJfBtmG" style="color:#ffffff;">lorem ipsum lorem ipsum</span><br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="xZ3z9Gaj6JLgZb90" style="pointer-events:none;">
+          <div id="n0DW1a8DqqvHcljC" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="sI9sE36skZldmTXy" style="width:100%;opacity:1.0;height:100%;">
+              <div id="ruYxJLWB0gtiK4R8"
+                style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="epsSK4Rgm0PDLs5e" style="pointer-events:none;">
+          <div id="F2ayABhM9X9wfRMz" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="kn8OxBryPkdRBqmT"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
+              <p id="cbc8TDCq5MXdRf6X"
+                style="text-transform:uppercase;color:#49444b;letter-spacing:0.05em;font-family:YAEnl21zi4U-0;line-height:1.1em;text-align:center;">
+                <span id="KYbGCyOQ2N0XsuKX" style="color:#49444b;">Shop now</span><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="RUyiq5cBqkEn5va1"
+      style="z-index:0;overflow:hidden;display:grid;margin-top:-1px;position:relative;align-items:center;">
+      <div id="o6o48M78GRFTt10C"
+        style="background-color:#c7b7cd;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;top:0%;left:0%;position:absolute;">
+      </div>
+      <div id="XxdNVmh8w5yjvh9C">
+        <div id="YaefpRSGhKYs11Xi" style="pointer-events:none;">
+          <div id="GnFC9xlKTJfMe5Zt" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="BYIWMfSsnB5cN7TA"
+              style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+              <p id="gefZMSWJNxsotxpk"
+                style="color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;text-align:center;">
+                <span id="GzwMiAd3lZ2BqrQn" style="color:#ffffff;">Look who&#x27;s wearing Mintmade!</span><br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="tdSBCR4pwRS8c8en" style="pointer-events:none;">
+          <div id="a3AbXTqkFUOkVNFm" style="padding-top:129.86086919%;transform:rotate(0deg);">
+            <div id="bljUCI4aT49QIuxb" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+              <div id="wpHujgpkxb2FZrci" style="width:100%;opacity:1.0;height:100%;">
+                <div id="iA40MvZ2RKlioLjN" style="transform:scale(1, 1);overflow:hidden;width:100%;height:100%;">
+                  <div id="ThvOZGmMtMtR4EcJ"
+                    style="transform:rotate(0deg);top:-7.71804451%;left:0%;width:100%;position:relative;opacity:1.0;height:115.43608902%;animation:anim-pulse 1.5s ease-in-out infinite;">
+                    <img
+                      src="https://oldnavy.gap.com/Asset_Archive/ONWeb/content/0029/745/737/assets/230501_12-M5091_G_DP_NewArrivals.jpg"
+                      loading="lazy" style="width:100%;height:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="WyVdomXkcLXAoyNf" style="pointer-events:none;">
+          <div id="MiHPEAC4guauMxcD" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="o0jGQsK38v6sTJbd"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+              <p id="P83Msyyg0uyko9FF"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="spKlHv44TC8HRpfR"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">Jordanna
+                  Philips</span>
+              </p>
+              <p id="cNCKYniwilG1jWr2"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="Byb2KWPmpCaVnGB1"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">(Jordanna&#x27;s
+                  Closet)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="abozNZ9FbdZcuH9O" style="pointer-events:none;">
+          <div id="dWmxDCVSd3FMoXhY" style="padding-top:129.86086919%;transform:rotate(0deg);">
+            <div id="EuSIHlf2LABY7klm" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+              <div id="F5TnFzlLepcL8Tff" style="width:100%;opacity:1.0;height:100%;">
+                <div id="WcDvQmqkv2Llr6Gh" style="transform:scale(1, 1);overflow:hidden;width:100%;height:100%;">
+                  <div id="KrIG132wDx7ob6Ur"
+                    style="transform:rotate(0deg);top:-15.50823658%;left:0%;width:100%;position:relative;opacity:1.0;height:115.50823658%;animation:anim-pulse 1.5s ease-in-out infinite;">
+                    <img
+                      src="https://oldnavy.gap.com/Asset_Archive/ONWeb/content/0029/745/734/assets/230501_12-M5089_M_DP_Activewear.jpg"
+                      alt="Young Man in Brown Jacket Standing on the Stairs Outdoors" loading="lazy"
+                      style="width:100%;height:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="dbkgYAl7HB1qvZ0q" style="pointer-events:none;">
+          <div id="mXz52jyqiwPZ7Clq" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="ISvaU8FE87M5lc6L"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+              <p id="T8r8S2Xyya5pdE65"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="ZGvI1YL3M4xijrgC"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">Neil</span><span
+                  id="j5IwQ1FO0XMuPrP8"
+                  style="text-decoration-line:none;color:#ffffff;white-space:break-spaces;font-weight:400;font-style:italic;"> 
+                </span><span id="nY5iNncsEhCjVpjc"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">Tran</span>
+              </p>
+              <p id="mXKlJ34WpQ4pHXrY"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="P2HsSLP7NctmV8J5"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">(Actor and
+                  Model)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="zwQ6eKjLF4oXrNNB" style="pointer-events:none;">
+          <div id="JAM8R8qMsVNqXAmN" style="padding-top:129.86086919%;transform:rotate(0deg);">
+            <div id="cQSBTuBhseraZboy" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+              <div id="ToCWJ031TuLUFNfm" style="width:100%;opacity:1.0;height:100%;">
+                <div id="zaw4hZtGUdjR1Gbu" style="transform:scale(1, 1);overflow:hidden;width:100%;height:100%;">
+                  <div id="q8grQDrUAZBwQMUt"
+                    style="transform:rotate(0deg);top:-14.62752861%;left:0%;width:100%;position:relative;opacity:1.0;height:115.50823658%;animation:anim-pulse 1.5s ease-in-out infinite;">
+                    <img
+                      src="https://oldnavy.gap.com/Asset_Archive/ONWeb/content/0029/745/734/assets/230501_12-M5089_M_DP_Activewear.jpg"
+                      alt="Woman in Black Dress and Coat Outdoors" loading="lazy" style="width:100%;height:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="OExwT29Xe4SRIZpq" style="pointer-events:none;">
+          <div id="MVDT1XoEnKiwxYtd" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="OSrV9JtFsGPUh43l"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+              <p id="VSKJP5H70fpUq7fL"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="qSkQrimMqWpv0dOA"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">Agatha Lam</span>
+              </p>
+              <p id="myyAEz8VXQJNyoFa"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="qF1fFeqinpSr9rcI"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">(Host and
+                  Influencer)</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="vvf1cS0AcOU3Db1u"
+      style="z-index:0;overflow:hidden;display:grid;margin-top:-1px;position:relative;align-items:center;">
+      <div id="dX8ZLqS2S22MtyB9"
+        style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;top:0%;left:0%;position:absolute;">
+      </div>
+      <div id="TSDTctBdUaehiwkQ">
+        <div id="Lh2HlpXN0KxjhZYc" style="pointer-events:none;">
+          <div id="GmQ7Iqvz29uhUlx3" style="padding-top:112.44509517%;transform:rotate(0deg);">
+            <div id="EEeHLyFzZLmReHz2" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+              <div id="Tdsm5pnkp3C0xIOX" style="width:100%;opacity:1.0;height:100%;">
+                <div id="zUCJCjHB7CPsP9GS" style="transform:scale(1, 1);overflow:hidden;width:100%;height:100%;">
+                  <div id="k1Va0D4ykgA132Nt"
+                    style="transform:rotate(0deg);top:-28.5975598%;left:0%;width:100%;position:relative;opacity:1.0;height:133.3984375%;animation:anim-pulse 1.5s ease-in-out infinite;">
+                    <img
+                      src="https://oldnavy.gap.com/Asset_Archive/ONWeb/content/0029/745/734/assets/230501_12-M5089_M_DP_Activewear.jpg"
+                      alt="Woman in Casual Brown Dress Shirt and Slacks" loading="lazy" style="width:100%;height:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="h4AYPgwyaEkeS9zA" style="pointer-events:none;">
+          <div id="pa59e18FUNDQS8qZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="syPFJJGFdDb1dhML"
+              style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+              <p id="eqN0GkNsRBjWFJV3"
+                style="margin-left:0em;text-transform:none;color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1em;direction:ltr;text-align:center;">
+                <span id="vwiQxCXJH1OHSQGj"
+                  style="text-decoration-line:none;color:#49444b;font-weight:400;font-style:normal;">Clothes</span>
+              </p>
+              <p id="AK9GC5mkEuoheRO7"
+                style="margin-left:0em;text-transform:none;color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1em;direction:ltr;text-align:center;">
+                <span id="CRNLRElUCmNWORq8"
+                  style="text-decoration-line:none;color:#49444b;font-weight:400;font-style:normal;">for Her</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="je5AKrdsKSj1UYrh" style="pointer-events:none;">
+          <div id="AFCToCZwO8KS6ffI" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="SNFfLMTlNndLwLsp"
+              style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+              <p id="K4Z8X32YY0LBwEnh"
+                style="margin-left:0em;text-transform:none;color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="ghT2Incm59kvqd2R"
+                  style="text-decoration-line:none;color:#49444b;font-weight:400;font-style:normal;">Shop for classic or
+                  trendy pieces</span>
+              </p>
+              <p id="S5mMrT2K1PViqMNe"
+                style="margin-left:0em;text-transform:none;color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="EHN0dFnqloovqmb0"
+                  style="text-decoration-line:none;color:#49444b;font-weight:400;font-style:normal;">you can wear every
+                  day.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="ClR7RWjZcpQgMWUk" style="pointer-events:none;">
+          <div id="Ii0YBLElhAPie490" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="CcoU8SedVJ095eFw" style="width:100%;opacity:1.0;height:100%;">
+              <div id="OVaQHF9CVIG0B5RV"
+                style="background-color:#c7b7cd;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="qL3JuTxep8GJUtUl" style="pointer-events:none;">
+          <div id="nuceLlmY6koZHhDH" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="YlnDMcwlhaerv6XG"
+              style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+              <p id="wiCLebc9fzdzCINz"
+                style="text-transform:uppercase;color:#ffffff;letter-spacing:0.05em;font-family:YAEnl21zi4U-0;line-height:1.1em;text-align:center;">
+                <span id="gIfAxyHSX9Vit2s1" style="color:#ffffff;">Shop now</span><br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="HPjkdas1w87N2Gi2"
+      style="z-index:0;overflow:hidden;display:grid;margin-top:-1px;position:relative;align-items:center;">
+      <div id="HJaFMlePfADQ9nHQ"
+        style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;top:0%;left:0%;position:absolute;">
+      </div>
+      <div id="tlTYc5Q2UldM0bss">
+        <div id="K1inQHZgD16k4w0O" style="pointer-events:none;">
+          <div id="AAkqssJAaBg591tg" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="AjSkTL3E7v1IGQf7"
+              style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+              <p id="sgr8C2lNAXha3gnX"
+                style="margin-left:0em;text-transform:none;color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1em;direction:ltr;text-align:center;">
+                <span id="pGQhdGkRdofpYhh4"
+                  style="text-decoration-line:none;color:#49444b;font-weight:400;font-style:normal;">Clothes</span>
+              </p>
+              <p id="FvEfeMOF9QxtcS8l"
+                style="margin-left:0em;text-transform:none;color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1em;direction:ltr;text-align:center;">
+                <span id="KiceJPleY3zlV5gO"
+                  style="text-decoration-line:none;color:#49444b;font-weight:400;font-style:normal;">for Him</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="oU76h8KDNMNVcFSj" style="pointer-events:none;">
+          <div id="Lx7dNhXDeqxj5iRZ" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="Z2RNe9PQxI5ny8Gu"
+              style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+              <p id="wocmt8dkG7dqadkS"
+                style="color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;text-align:center;">
+                <span id="lULsMMPSYAUpNt2A" style="color:#49444b;">Look dashing while on the go</span>
+              </p>
+              <p id="uVMpvAeJVt4CrzXw"
+                style="margin-left:0em;text-transform:none;color:#49444b;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;direction:ltr;text-align:center;">
+                <span id="kXU6IqeepW0LiPWl" style="color:#49444b;">with our casual wear items.</span><br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="wn4spMaTRGUqx0bp" style="pointer-events:none;">
+          <div id="t31EySgrU9XgoHaN" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="iwmm9Nd9WUtA8peO" style="width:100%;opacity:1.0;height:100%;">
+              <div id="lLN02FbE8UP2qzw0"
+                style="background-color:#c7b7cd;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="hQHCecQRWZzVQP2M" style="pointer-events:none;">
+          <div id="ViNpinIisqVHQZJw" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="kHd5R303WUdfmOHm"
+              style="flex-direction:column;display:flex;width:100%;justify-content:center;opacity:1.0;height:100%;">
+              <p id="LFPLlpSdDy53q5oB"
+                style="text-transform:uppercase;color:#ffffff;letter-spacing:0.05em;font-family:YAEnl21zi4U-0;line-height:1.1em;text-align:center;">
+                <span id="Al3RxjkdWzZtrW45" style="color:#ffffff;">Shop now</span><br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="WflyP0eGt00dSEjM" style="pointer-events:none;">
+          <div id="pxQ7xLMiSz2r5qzY" style="padding-top:112.44509517%;transform:rotate(0deg);">
+            <div id="JTirnQIBKV8TGfht" style="top:0px;left:0px;width:100%;position:absolute;height:100%;">
+              <div id="XwQ3oMCPiNI8cPGk" style="width:100%;opacity:1.0;height:100%;">
+                <div id="sFbr3BfXyMUhbd2l" style="transform:scale(1, 1);overflow:hidden;width:100%;height:100%;">
+                  <div id="HA9UsROAGeMvMmi0"
+                    style="transform:rotate(0deg);top:-33.3984375%;left:0%;width:100%;position:relative;opacity:1.0;height:133.3984375%;animation:anim-pulse 1.5s ease-in-out infinite;">
+                    <img
+                      src="https://oldnavy.gap.com/Asset_Archive/ONWeb/content/0029/745/734/assets/230501_12-M5089_M_DP_Activewear.jpg"
+                      alt="Portrait of a Man in Neutral Outfit" loading="lazy" style="width:100%;height:100%;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="SetClIPTCxBG8buP"
+      style="z-index:0;overflow:hidden;display:grid;margin-top:-1px;position:relative;align-items:center;">
+      <div id="EFNrUXvedPoJTeEu"
+        style="background-color:#ffffff;transform:scale(1, 1);overflow:hidden;width:100%;opacity:1.0;height:100%;top:0%;left:0%;position:absolute;">
+        <div id="HFFcSqQheRwaOl77"
+          style="background-repeat:no-repeat;background-size:cover;top:-21.07336232%;left:0%;width:100%;background-image:url(https://static.vecteezy.com/system/resources/thumbnails/019/011/154/small/abstract-watercolor-paint-background-beautiful-blue-green-and-yellow-watercolor-splash-design-colorful-plain-green-tones-watercolor-textures-paper-textured-aquarelle-canvas-for-modern-creative-design-vector.jpg);background-position:center;position:relative;opacity:1.0;height:266.796875%;">
+        </div>
+      </div>
+      <div id="If62GdIySoOzONQP">
+        <div id="crxQTO2qJdqHqMgr" style="pointer-events:none;">
+          <div id="P7K8WZlsefAK68zD" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="P8wcVvNQ2j6ZTiRe"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+              <p id="uzgERPxKs7ngQ9cY"
+                style="color:#ffffff;letter-spacing:0.05em;font-family:YAEqe1G4kwU-0;line-height:1.1em;"><span
+                  id="Ry1Bjg4QcYRLn7Ax" style="color:#ffffff;font-weight:700;">mintmade</span><br></p>
+            </div>
+          </div>
+        </div>
+        <div id="pvKPKE0GYMrJBJw6" style="pointer-events:none;">
+          <div id="ptQTxqmOpvpVAVtE" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="FSzYqRWVkO77J1Va"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+              <p id="kVI5EDtgj5O2xRf3"
+                style="color:#ffffff;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;"><span
+                  id="KzbWFOR4KqYThGVZ" style="color:#ffffff;">Instagram</span></p>
+              <p id="cROS9TKsVpOXCYvr"
+                style="color:#ffffff;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;"><span
+                  id="s89bvOhVpZgwHBJT" style="color:#ffffff;">Facebook</span></p>
+              <p id="sAu0vFjhyiVr6pKK"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;direction:ltr;">
+                <span id="d1271DFoVC8bHSay" style="color:#ffffff;">Twitter</span><br>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="wzJLzdNqQQNTlMIn" style="pointer-events:none;">
+          <div id="kqwJVUApfFzZSwFC" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="sbdse8BA534ei1Bw"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-start;opacity:1.0;height:100%;">
+              <p id="EPWLLFVYJLL1QP90"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;direction:ltr;text-align:left;">
+                <span id="T17VwPsj6ZIDxjHJ"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:normal;">+977
+                  9741838338</span>
+              </p>
+              <p id="FT1JkryboIFjbgmK"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEp0tfoKnU-0;line-height:1.3em;direction:ltr;text-align:left;">
+                <span id="GmLyTqtVQdhhLeHk"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:normal;">rpratik6600@gmail.com</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="RbX1RWeeQqSOZDmk" style="pointer-events:none;">
+          <div id="i5Bt4ZPcnHy4Akad" style="transform:rotate(0deg);width:100%;box-sizing:border-box;height:100%;">
+            <div id="gntYOG5LyxbRwhpe"
+              style="flex-direction:column;display:flex;width:100%;justify-content:flex-end;opacity:1.0;height:100%;">
+              <p id="H46nv4RNLMIDvKNb"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;">
+                <span id="AghVwlxuHqTy49OT"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">123 Anywhere St.,
+                  Any City</span>
+              </p>
+              <p id="wKClm4T5bUKdxmqb"
+                style="margin-left:0em;text-transform:none;color:#ffffff;letter-spacing:-0.04em;font-family:YAEnl21zi4U-0;line-height:1.3em;direction:ltr;">
+                <span id="xOpE3vhBs44WI2AE"
+                  style="text-decoration-line:none;color:#ffffff;font-weight:400;font-style:italic;">State, Country
+                  12345</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/73ad2651535b7ecadd366d5fa045dc32c1cdb8fc38f8243601b62b64f4123420.js" async=""></script>
+  </div>
+  <script>
+    const lang = navigator.language ? navigator.language : 'en';
+    fetch('_footer?lang=' + encodeURIComponent(lang)).then(response => {
+      response.text().then(footerStr => {
+        const div = document.createElement('div');
+        div.innerHTML = footerStr;
+        for (const child of [...div.children]) {
+          if (child.tagName.toLowerCase() !== 'script') {
+            document.body.append(child);
+          }
+        }
+
+        (() => { !function () { "use strict"; const e = document.getElementById("modal_backdrop"), t = document.getElementById("report_form"), o = document.getElementById("report_button"), n = document.getElementById("form_report"), c = document.getElementById("form_cancel"), s = document.getElementById("form_submit_reason"), a = document.getElementById("form_go_back"), d = document.getElementById("form_submit_captcha"), l = document.getElementById("form_close"), i = document.getElementById("report_reason_0"), r = document.getElementById("error_message"), m = document.getElementById("error_message_captcha"), u = [document.getElementById("form_step_terms"), document.getElementById("form_step_report_reason"), document.getElementById("form_step_captcha"), document.getElementById("form_step_success")]; function p() { e.classList.remove("active"), t.classList.remove("active"), o.classList.remove("active"), o.focus() } function E(e) { u.forEach(((t, o) => { t.style.display = o === e ? "block" : "none" })) } let _, y = !1; const f = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => _ : () => { const e = t.elements.namedItem("g-recaptcha-response"); return null == e ? void 0 : e.value }; e.onclick = p, c.onclick = p, l.onclick = p, o.onclick = function () { u.forEach(((e, t) => { e.style.display = 0 === t ? "block" : "none" })), e.classList.add("active"), t.classList.add("active"), o.classList.add("active"), i.checked = !0, setTimeout((() => { i.focus() }), 350) }, n.onclick = () => E(1), s.onclick = () => { E(2), function () { if (y) return; const e = document.createElement("script"); console.log("our window captcha: ", window.C_CAPTCHA_IMPLEMENTATION, window.C_CAPTCHA_KEY), e.src = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? "https://cstaticdun.126.net/load.min.js" : "https://www.google.com/recaptcha/api.js", e.async = !0, e.defer = !0, document.head.appendChild(e), y = !0, e.onload = "NETEASE" === window.C_CAPTCHA_IMPLEMENTATION ? () => { var e; null === (e = window.initNECaptcha) || void 0 === e || e.call(window, { captchaId: window.C_CAPTCHA_KEY, element: "#netease-captcha", protocol: "https", width: "auto", onVerify: (e, t) => { _ = t.validate } }) } : () => { } }() }, a.onclick = () => E(1), t.addEventListener("submit", (function (e) { e.preventDefault(), r.style.display = "none", m.style.display = "none"; const t = function () { let e = ""; const t = document.getElementsByName("report_reason"); for (let o = 0; o < t.length; o++) { const n = t[o]; !0 === n.checked && (e = n.value) } return e }(), o = f(); if (!o) return void (m.style.display = "block"); const n = { reason: t, challenge: o }, c = window.location.origin + window.location.pathname + "/_api/report"; d.classList.add("loading"), fetch(c, { method: "POST", body: JSON.stringify(n), headers: { "Content-Type": "application/json; charset=utf-8" } }).then((e => { d.classList.remove("loading"), e.ok ? E(3) : r.style.display = "block" })) })) }(); })();
+      });
+    });
+  </script>
+</body>
+
+</html>
